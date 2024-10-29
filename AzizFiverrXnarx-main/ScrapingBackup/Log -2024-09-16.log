@@ -1,0 +1,2 @@
+2024-09-16 23:04:11,290 - root - ERROR - Error while connecting to MySQL:
+  2003 (HY000): Can't connect to MySQL server on '194.31.52.65:3306' (60)
