@@ -13,10 +13,20 @@ from Dataclean import process_product_name
 current_date = datetime.now().strftime("%Y-%m-%d")
 FileName = f"Three - {current_date}.csv"
 
+def remove_currency(value):
+    if value:
+        return value.replace('сўм', '').replace(' ', '')
+    return value
+
+
+def clean_price(value):
+    if value:
+        return value.replace('.', '')
+    return value
 
 def prepend_txt(value,txt):
     if "Price" in txt: 
-        return f"Price: {value.strip()}" if value else None
+        return f"{value.strip()}" if value else None
     else:
         return f"{txt}{value.strip()}" if value else None
 def Get_Categories(store):
@@ -104,7 +114,7 @@ class ElmakonSpider(scrapy.Spider):
                         MapCompose(lambda v: process_product_name(v, category_Name)))
                     loader.add_xpath('Link', ".//a[@class='product-title']/@href")
                     loader.add_xpath('Image', ".//div[@class='ut2-gl__image']//img/@srcset")
-                    loader.add_xpath('Price', ".//span[contains(@id,'sec_discounted_price')]/text()",MapCompose(lambda v:prepend_txt(v,"Price")))
+                    loader.add_xpath('Price', ".//span[contains(@id,'sec_discounted_price')]/text()",MapCompose(lambda v: prepend_txt(v,"Price"), clean_price))
                     loader.add_value('Category',category_Name)
                     loader.add_value('Store',store_Name)
                   
@@ -223,7 +233,7 @@ class TexnomartSpider(scrapy.Spider):
                     MapCompose(lambda v: process_product_name(v, category_Name)))
                 loader.add_value('Link',str(product['id']),MapCompose(lambda v:prepend_txt(v,"https://texnomart.uz/ru/product/detail/")))
                 loader.add_value('Image',product['image'])
-                loader.add_value('Price',product['f_sale_price'])
+                loader.add_value('Price',product['f_sale_price'],MapCompose(lambda v: remove_currency(v)))
                 loader.add_value('Category',category_Name)
                 loader.add_value('Store',store_Name)
 
