@@ -3,6 +3,13 @@ import mysql.connector
 from DB_Queries import DataBase
 from datetime import datetime
 
+
+"""
+1. Iphone RAM mentioned and not mentioned - 1500, 14949 / 14999, 14950 - MediaPark
+2. Realme 12+ 8/256 Gb vs Realme 12 +
+3. Rmx3363 Realme Gt Master Edition 8+256 - - 5996993 Gb, 207
+"""
+
 # Function to create SQLite database and table
 def create_sqlite_db():
     conn = sqlite3.connect('changes.db')
@@ -109,6 +116,9 @@ def main():
         try:
             original_id = int(original_id)
             new_id = int(new_id)
+            if original_id == new_id:
+                print("Original ID and New ID are the same. Please enter different IDs.")
+                return
         except ValueError:
             print("Invalid ID entered. IDs must be integers.")
             return

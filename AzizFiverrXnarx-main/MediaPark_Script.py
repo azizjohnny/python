@@ -13,18 +13,26 @@ from datetime import datetime
 from DB_Queries import DataBase
 from Dataclean import process_product_name
 
+"""
+1. Didn't write the line for products with no images
+2. After that, all products after no image are not written (HTML page 2)
+3. Artel P5 Space Gray
+4. Samsung Galaxy A04 64 Gb vs Samsung Galaxy A04 4/64 Gb
+5. 
+"""
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('scrape.log'),
+        logging.FileHandler('scrape.log', mode='w'),
         logging.StreamHandler()
     ]
 )
 
 current_date = datetime.now().strftime("%Y-%m-%d")
-FileName = f"MediaPark - {current_date}today.csv"
+FileName = f"MediaPark - {current_date}.csv"
 
 logging.info("NEW LOG! \n\n")
 
@@ -57,7 +65,6 @@ async def main(categories):
                     Chect_Trig = None  #### This is for check if Java Object found or Not
                     ###### Java Script Object #######
                     try:
-                        
                         json_object = await driver.find_element(By.XPATH,"//script[contains(text(),'products') and contains(text(),'bread_crumbs')]",timeout=5)
                         if json_object:
                             json_Object_Text = await json_object.get_attribute("innerHTML")
@@ -67,14 +74,18 @@ async def main(categories):
                             json_Object_Text = json_Object_Text[:-1]
 
                             Json_list = json.loads(json_Object_Text)
-                            get_data(Json_list[1],category_Name,store_Name)
+                            await get_data(Json_list[1],category_Name,store_Name)
                             
                             Chect_Trig = True
                             logging.info("JS")
                         else:
+                            logging.error(f"Failed to scrape page {page} with JSON")
+                            logging.info(f"On page {page} check else trigger is False")
                             Chect_Trig = False    
                             
-                    except:
+                    except Exception as e:
+                        logging.error(f"Failed to scrape page {page} with JSON with error: {str(e)}")
+                        logging.info(f"On page {page} check trigger is False")
                         Chect_Trig = False
                    
                     
@@ -84,7 +95,6 @@ async def main(categories):
 
 
                         ######  HTML structure #######
-                        
                     if not Chect_Trig:
                         ##### Scroll Page Load Images #####
                        
@@ -99,17 +109,27 @@ async def main(categories):
                             time.sleep(1)  # Wait for a second (or adjust the wait time as needed)
                         time.sleep(2)
                         ##### Getting Data ######
-                        for product in selector.xpath("//a[contains(@class,'product-cart')]"):
-    
-                            Name = process_product_name(product.xpath(".//p/text()").get(),category_Name)
-                            Slug = product.xpath(".//@href").get() 
-                            Image = product.xpath(".//img/@src").get()
-                            Price = product.xpath(".//b/text()").get()
-                            if not "https://mediapark.uz" in Slug:
-                                Slug = f"https://mediapark.uz{Slug}"
-                            logging.info(f"processing HTML product name: {Name}")
-                            
-                            write_to_file_data([Name,Slug,Image,Price,category_Name,store_Name],FileName)
+                        products = selector.xpath("//a[contains(@class, '[&:hover_.actions]:!flex') and contains(@class, 'tablet:max-w-full')]")
+                        logging.info(f"at Page {page} HTML products {products}")
+                        
+                        for product in products:
+                            try:
+                                Name = process_product_name(product.xpath(".//p/text()").get(), category_Name)
+                                Slug = product.xpath(".//@href").get()
+                                Image = product.xpath(".//img/@src").get()# Even if image is missing, continue
+                                Price = product.xpath(".//b/text()").get()
+                                
+                                if not "https://mediapark.uz" in Slug:
+                                    Slug = f"https://mediapark.uz{Slug}"
+                                
+                                logging.info(f"processing HTML product name: {Name}, Slug: {Slug}, Image: {Image}, Price: {Price}")
+                                write_to_file_data([Name, Slug, Image, Price, category_Name, store_Name], FileName)
+                            except Image == None:
+                                logging.info(f"No image found for product: {Name}")
+                                continue
+                            except Exception as e:
+                                logging.error(f"Error processing product: {str(e)}")
+                                continue  # Skip this product but continue with others
                         logging.info("HTML")
 
                    
@@ -139,42 +159,63 @@ async def main(categories):
                 logging.error(f"Error processing category {category_Name}: {str(e)}")
                 pass   
 
-def get_data(text, Category, store_Name):
+async def get_data(text, Category, store_Name):
     logging.info(f"Processing JSON data for category: {Category}")
     pattern = r'"products":(.*?),\s*"bread_crumbs"'
 
-
-    # Use re.search to find the match
     match = re.search(pattern, text, re.DOTALL)
+    loops = 0
 
-    # Check if a match is found
     if match:
-        # Extract the content between "products": and ,"bread_crumbs"
         products_content = match.group(1)
         output = json.loads(products_content)
-        # print(output[0])
+        
         for lst in output:
-
-            Name = lst['name']['ru']
-            Name = process_product_name(Name,Category)
-            logging.info(f"processing JS object name: {Name}")
-            Slug = lst['slug']['ru']
-            Slug_link = f"https://mediapark.uz/products/view/{Slug}"
+            loops += 1
             try:
-                Image = lst['mobile_photos'][0]
-                if not Image:
-                    logging.info(f"default to second image")
-                    Image = lst['mobile_photos'][1]
-                if not Image:
-                    logging.info(f"default to third image")
-                    Image = lst['mobile_photos'][2]
-            except:
+                Name = lst['name']['ru']
+                Name = process_product_name(Name,Category)
+                logging.info(f"processing JS object name: {Name} with element number {loops}")
+                Slug = lst['slug']['ru']
+                Slug_link = f"https://mediapark.uz/products/view/{Slug}"
+                
+                # Try to get image from JSON first
                 Image = ""
-            if not Image:
-                print(f"XX: {lst['mobile_photos']}")
-           
-            Price = lst['actual_price']
-            write_to_file_data([Name,Slug_link,Image,Price,Category,store_Name],FileName)          
+                try:
+                    if 'mobile_photos' in lst and lst['mobile_photos']:
+                        for photo in lst['mobile_photos']:
+                            if photo:  # Find first non-empty photo
+                                Image = photo
+                                break
+                except Exception as img_error:
+                    logging.warning(f"Error extracting image from JSON for product {Name}: {str(img_error)}")
+                
+                # If no image found, try to fetch from product page
+                if not Image:
+                    try:
+                        logging.info(f"Attempting to fetch image from product page for {Name}")
+                        async with webdriver.Chrome() as product_driver:
+                            await product_driver.get(Slug_link, timeout=7, wait_load=True)
+                            await product_driver.sleep(2)  # Short wait for page load
+                            
+                            # Try to find image in product page
+                            product_image = await product_driver.find_element(
+                                By.XPATH,
+                                "//div[contains(@class, 'LazyLoad')]//img[contains(@class, 'object-contain')]",
+                                timeout=5
+                            )
+                            if product_image:
+                                Image = await product_image.get_attribute("src")
+                                logging.info(f"Successfully fetched image from product page for {Name}")
+                    except Exception as page_error:
+                        logging.warning(f"Failed to fetch image from product page for {Name}: {str(page_error)}")
+                
+                Price = lst['actual_price']
+                write_to_file_data([Name,Slug_link,Image,Price,Category,store_Name],FileName)
+                
+            except Exception as e:
+                logging.error(f"Error processing product in JSON: {str(e)}")
+                continue  # Skip this product but continue with others
 
 
 
@@ -234,7 +275,7 @@ if __name__ == '__main__':
         exists_products_ID, exists_products_Name = Object.fetch_all_product_names_Ids()
 
         for index, product in Products.iterrows():
-            products_data.append(Object.prepare_product_data(product, existing_images,exists_products_ID, exists_products_Name))
+            products_data.append(Object.prepare_product_data(product, existing_images, exists_products_ID, exists_products_Name))
   
     if products_data:
         logging.info(f"Inserting {len(products_data)} products into database")

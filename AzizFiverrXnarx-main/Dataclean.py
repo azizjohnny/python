@@ -1,5 +1,6 @@
 import re
 import time
+import logging
 
 def process_product_name(product_name, category_name):
     # Convert the product name to lowercase for easier processing
@@ -12,6 +13,12 @@ def process_product_name(product_name, category_name):
         if len(gb_matches) == 2:
             # Remove the first "GB" or "ГБ" (RAM) and keep the second one (Storage)
             product_name_lower = re.sub(r'(\d+)\s*(gb|гб)', r'\1', product_name_lower, count=1, flags=re.IGNORECASE)
+
+        # standard "+"" convention. If there is space before "+", remove it
+        # product_name_lower = re.sub(r'\s*\+', '+', product_name_lower)
+
+        # for samsung, remove / and the chatacter before it. If matches perfectly....
+
 
         # Handle "GB" or "ГБ" as usual
         if 'gb' in product_name_lower:
@@ -48,7 +55,26 @@ def process_product_name(product_name, category_name):
     # Now remove model names that start with "A" or "S" followed by exactly three digits 
     # only for Samsung products and only after the "Samsung" and "Galaxy" corrections
     if "samsung" in product_name_lower or "galaxy" in product_name_lower:
-        product_name = re.sub(r'\b[A|S]\d{3}\b', '', product_name, flags=re.IGNORECASE).strip()
+        product_name = re.sub(r'\b[A|S]\d{3}\b', '', product_name, flags=re.IGNORECASE).strip()\
+    
+    # Updated color removal - handle colors anywhere in the product name
+    colors = ["black", "silver", "gold", "gray", "grey", "blue", "green", "white", 
+                "space gray", "space grey", "midnight", "mint", "minty", "lavender"]
+    if any(color in product_name_lower for color in colors):
+        # First handle compound colors with spaces
+        product_name = re.sub(
+            r'\s+space\s+gr[ae]y\s*',
+            ' ',
+            product_name,
+            flags=re.IGNORECASE
+        ).strip()
+        # Then handle single-word colors
+        product_name = re.sub(
+            r'\s+(black|silver|gold|gr[ae]y|blue|green|white|midnight|mint|lavender)\s*',
+            ' ',
+            product_name,
+            flags=re.IGNORECASE
+        ).strip()
 
     # Remove the words "EU" and "India"
     product_name = re.sub(r'\b(eu|india|asia|china)\b', '', product_name, flags=re.IGNORECASE).strip()
@@ -74,6 +100,23 @@ def process_product_name(product_name, category_name):
     # Detect if the product name is an iPhone and add "Apple" if it's not already there
     if "iphone" in product_name_lower and "apple" not in product_name_lower:
         product_name = "Apple " + product_name
+
+    # Remove characters before "/" for iPhone products
+    if "iphone" in product_name_lower and "/" in product_name:
+        parts = product_name.split()
+        for i, part in enumerate(parts):
+            if "/" in part:
+                slash_index = part.find("/")
+                # Keep everything after the slash
+                parts[i] = part[slash_index + 1:]
+        product_name = " ".join(parts)
+
+    if ("samsung" in product_name_lower or "galaxy" in product_name_lower) and "/" in product_name_lower:
+        # Use regex to remove the RAM specification pattern (e.g., "12/", "8/", "6/")
+        product_name = re.sub(r'\b\d+/', '', product_name)
+    if "+" in product_name_lower:
+        # Remove space before + sign
+        product_name = re.sub(r'\s+\+', '+', product_name)
 
     # If the product contains a memory size but does not end with "GB" or "TB", append "GB"
     if re.search(r'\b\d+/\d+\b', product_name) or re.search(r'\b\d+\s*gb\b', product_name, flags=re.IGNORECASE):

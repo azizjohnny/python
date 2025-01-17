@@ -169,7 +169,7 @@ class DataBase:
             except Exception as e:
                 print(f"Error downloading image {image_url}: {e}")
 
-        return (category_name, product_image, product_name, formatted_datetime, product_link, price, store_name, image_url,check_product_name)
+        return (category_name, product_image, product_name, formatted_datetime, product_link, price, store_name, image_url, check_product_name)
 
     def insert_products_batch(self, products_data):
         product_sql = """

@@ -10,6 +10,14 @@ import re
 import time
 from Dataclean import process_product_name
 
+
+"""
+* Idea
+Honor X7b Black/Green/Silver 8/128 Gb
+Honor X9b Black 12/256 Gb 
+Realme C30s 2+32 Rmx3690 Black/Blue
+"""
+
 current_date = datetime.now().strftime("%Y-%m-%d")
 FileName = f"Three - {current_date}.csv"
 
@@ -132,6 +140,10 @@ class ElmakonSpider(scrapy.Spider):
 class IdeaSpider(scrapy.Spider):
     name = "idea"
     base_url = 'https://api.idea.uz/api/v2/products?category_id='
+
+    def __init__(self, *args, **kwargs):
+        super(IdeaSpider, self).__init__(*args, **kwargs)
+        self.logger.info(f"Script started")
     
     def start_requests(self):
 
@@ -164,6 +176,7 @@ class IdeaSpider(scrapy.Spider):
             data = response.json()
             products = data['data']
             for product in products:
+                self.logger.info(f"product {product['name']}")
                 loader = ProductLoader(item=ProductItem(), selector=product)
                 loader.add_value('Name',product['name'],
                     MapCompose(lambda v: process_product_name(v, category_Name)))
@@ -263,7 +276,11 @@ if __name__ == "__main__":
         'ROBOTSTXT_OBEY': False,
         'REQUEST_FINGERPRINTER_IMPLEMENTATION' : '2.7',
         'TWISTED_REACTOR' : 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
-        'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+        'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'LOG_ENABLED': True,
+        'LOG_LEVEL': 'INFO',
+        'LOG_FILE': 'scrapy.log',
+        'LOG_FORMAT': '%(asctime)s [%(name)s] %(levelname)s: %(message)s'
     })
     process.crawl(ElmakonSpider)
     process.crawl(IdeaSpider)
