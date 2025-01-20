@@ -92,7 +92,7 @@ class DataBase:
         return {row[0] for row in result}
     
     def fetch_all_product_names_Ids(self):
-        sql = "SELECT id,product_name FROM product"
+        sql = "SELECT id, product_name FROM product"
         self.cursor.execute(sql)
         products = self.cursor.fetchall()
         id_to_position = {index: product[0]  for index, product in enumerate(products)}
@@ -137,8 +137,8 @@ class DataBase:
         
         # print(exists_products_ID)
         
-        if position != -1:  
-           check_product_name = None 
+        if position != -1:
+           check_product_name = None
 
         current_datetime = datetime.now()
         # formatted_datetime = current_datetime.strftime('%Y-%m-%d %H:%M:%S.%f')
@@ -175,7 +175,10 @@ class DataBase:
         product_sql = """
             INSERT INTO product (category_name, product_image, product_name)
             VALUES (%s, %s, %s)
-            ON DUPLICATE KEY UPDATE category_name=VALUES(category_name), product_image=VALUES(product_image), product_name=VALUES(product_name);
+            ON DUPLICATE KEY UPDATE 
+            category_name=VALUES(category_name), 
+            product_image=VALUES(product_image), 
+            product_name=VALUES(product_name);
         """
    
 
@@ -199,6 +202,7 @@ class DataBase:
         for pd in products_data:
         
             position = exists_products_Name.get(pd[2].lower().strip(), -1)
+            # if exists
             if position != -1:
                 prd_id = exists_products_ID[position] 
                 price_data.append((pd[3],pd[4],pd[5],pd[6],prd_id))

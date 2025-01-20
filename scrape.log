@@ -1,0 +1,1731 @@
+2025-01-20 06:24:46,009 - INFO - NEW LOG! 
+
+
+2025-01-20 06:24:46,009 - INFO - Script started
+2025-01-20 06:24:46,884 - INFO - Connected to the database successfully: Get MediaPark Categories
+2025-01-20 06:24:46,884 - INFO - Cleaning old logs
+2025-01-20 06:24:46,887 - INFO - Fetching categories from database
+2025-01-20 06:24:46,993 - INFO - Found 40 categories
+2025-01-20 06:24:46,995 - INFO - Starting scraping process
+2025-01-20 06:24:48,092 - INFO - Processing category: Smartfonlar
+2025-01-20 06:24:48,095 - INFO - category url: https://mediapark.uz/products/category/telefony-17/smartfony-40
+2025-01-20 06:24:53,331 - INFO - Starting pagination loop for Smartfonlar
+2025-01-20 06:24:53,332 - INFO - Processing page 1 of 1
+2025-01-20 06:24:53,402 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:53,404 - INFO - cleaning product name: смартфон xiaomi redmi note 14 pro 8/256gb purple
+2025-01-20 06:24:53,405 - INFO - cleaned product name: Xiaomi Redmi Note 14 Pro 8/256 Gb
+2025-01-20 06:24:53,405 - INFO - processing JS object name: Xiaomi Redmi Note 14 Pro 8/256 Gb with element number 1
+2025-01-20 06:24:53,406 - INFO - cleaning product name: смартфон xiaomi redmi note 14 6/128gb green
+2025-01-20 06:24:53,406 - INFO - cleaned product name: Xiaomi Redmi Note 14 6/128 Gb
+2025-01-20 06:24:53,406 - INFO - processing JS object name: Xiaomi Redmi Note 14 6/128 Gb with element number 2
+2025-01-20 06:24:53,406 - INFO - cleaning product name: смартфон xiaomi redmi note 14 6/128gb blue
+2025-01-20 06:24:53,406 - INFO - cleaned product name: Xiaomi Redmi Note 14 6/128 Gb
+2025-01-20 06:24:53,406 - INFO - processing JS object name: Xiaomi Redmi Note 14 6/128 Gb with element number 3
+2025-01-20 06:24:53,406 - INFO - cleaning product name: смартфон xiaomi redmi note 14 pro 8/256gb black
+2025-01-20 06:24:53,407 - INFO - cleaned product name: Xiaomi Redmi Note 14 Pro 8/256 Gb
+2025-01-20 06:24:53,407 - INFO - processing JS object name: Xiaomi Redmi Note 14 Pro 8/256 Gb with element number 4
+2025-01-20 06:24:53,407 - INFO - cleaning product name: смартфон xiaomi redmi note 14 6/128gb black
+2025-01-20 06:24:53,407 - INFO - cleaned product name: Xiaomi Redmi Note 14 6/128 Gb
+2025-01-20 06:24:53,407 - INFO - processing JS object name: Xiaomi Redmi Note 14 6/128 Gb with element number 5
+2025-01-20 06:24:53,407 - INFO - cleaning product name: смартфон apple iphone 16 plus 256gb teal
+2025-01-20 06:24:53,407 - INFO - cleaned product name: Apple Iphone 16 Plus 256 Gb
+2025-01-20 06:24:53,407 - INFO - processing JS object name: Apple Iphone 16 Plus 256 Gb with element number 6
+2025-01-20 06:24:53,407 - INFO - cleaning product name: смартфон apple iphone 16 plus 256gb ultramarine
+2025-01-20 06:24:53,407 - INFO - cleaned product name: Apple Iphone 16 Plus 256 Gb
+2025-01-20 06:24:53,407 - INFO - processing JS object name: Apple Iphone 16 Plus 256 Gb with element number 7
+2025-01-20 06:24:53,407 - INFO - cleaning product name: смартфон apple iphone 16 plus 256gb pink
+2025-01-20 06:24:53,407 - INFO - cleaned product name: Apple Iphone 16 Plus 256 Gb
+2025-01-20 06:24:53,407 - INFO - processing JS object name: Apple Iphone 16 Plus 256 Gb with element number 8
+2025-01-20 06:24:53,407 - INFO - cleaning product name: смартфон apple iphone 16 plus 256gb white
+2025-01-20 06:24:53,408 - INFO - cleaned product name: Apple Iphone 16 Plus 256 Gb
+2025-01-20 06:24:53,408 - INFO - processing JS object name: Apple Iphone 16 Plus 256 Gb with element number 9
+2025-01-20 06:24:53,408 - INFO - cleaning product name: смартфон apple iphone 16 plus 256gb black
+2025-01-20 06:24:53,408 - INFO - cleaned product name: Apple Iphone 16 Plus 256 Gb
+2025-01-20 06:24:53,408 - INFO - processing JS object name: Apple Iphone 16 Plus 256 Gb with element number 10
+2025-01-20 06:24:53,408 - INFO - cleaning product name: смартфон apple iphone 16 plus 128gb teal
+2025-01-20 06:24:53,408 - INFO - cleaned product name: Apple Iphone 16 Plus 128 Gb
+2025-01-20 06:24:53,408 - INFO - processing JS object name: Apple Iphone 16 Plus 128 Gb with element number 11
+2025-01-20 06:24:53,408 - INFO - cleaning product name: смартфон apple iphone 16 plus 128gb ultramarine
+2025-01-20 06:24:53,408 - INFO - cleaned product name: Apple Iphone 16 Plus 128 Gb
+2025-01-20 06:24:53,408 - INFO - processing JS object name: Apple Iphone 16 Plus 128 Gb with element number 12
+2025-01-20 06:24:53,408 - INFO - cleaning product name: смартфон apple iphone 16 plus 128gb pink
+2025-01-20 06:24:53,408 - INFO - cleaned product name: Apple Iphone 16 Plus 128 Gb
+2025-01-20 06:24:53,408 - INFO - processing JS object name: Apple Iphone 16 Plus 128 Gb with element number 13
+2025-01-20 06:24:53,408 - INFO - cleaning product name: смартфон apple iphone 16 plus 128gb white
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 Plus 128 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 Plus 128 Gb with element number 14
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 plus 128gb black
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 Plus 128 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 Plus 128 Gb with element number 15
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 512gb ultramarine
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 512 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 512 Gb with element number 16
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 512gb teal
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 512 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 512 Gb with element number 17
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 512gb pink
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 512 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 512 Gb with element number 18
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 512gb white
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 512 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 512 Gb with element number 19
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 512gb black
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 512 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 512 Gb with element number 20
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 256gb ultramarine
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 256 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 256 Gb with element number 21
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 256gb teal
+2025-01-20 06:24:53,409 - INFO - cleaned product name: Apple Iphone 16 256 Gb
+2025-01-20 06:24:53,409 - INFO - processing JS object name: Apple Iphone 16 256 Gb with element number 22
+2025-01-20 06:24:53,409 - INFO - cleaning product name: смартфон apple iphone 16 256gb pink
+2025-01-20 06:24:53,410 - INFO - cleaned product name: Apple Iphone 16 256 Gb
+2025-01-20 06:24:53,410 - INFO - processing JS object name: Apple Iphone 16 256 Gb with element number 23
+2025-01-20 06:24:53,410 - INFO - cleaning product name: смартфон apple iphone 16 256gb white
+2025-01-20 06:24:53,410 - INFO - cleaned product name: Apple Iphone 16 256 Gb
+2025-01-20 06:24:53,410 - INFO - processing JS object name: Apple Iphone 16 256 Gb with element number 24
+2025-01-20 06:24:53,410 - INFO - JS
+2025-01-20 06:24:53,463 - INFO - Total Pages calculated: 564
+2025-01-20 06:24:53,807 - INFO - Processing page 2 of 30
+2025-01-20 06:24:54,034 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:54,036 - INFO - cleaning product name: смартфон apple iphone 16 256gb black
+2025-01-20 06:24:54,036 - INFO - cleaned product name: Apple Iphone 16 256 Gb
+2025-01-20 06:24:54,036 - INFO - processing JS object name: Apple Iphone 16 256 Gb with element number 1
+2025-01-20 06:24:54,037 - INFO - cleaning product name: смартфон apple iphone 16 128gb teal
+2025-01-20 06:24:54,037 - INFO - cleaned product name: Apple Iphone 16 128 Gb
+2025-01-20 06:24:54,037 - INFO - processing JS object name: Apple Iphone 16 128 Gb with element number 2
+2025-01-20 06:24:54,037 - INFO - cleaning product name: смартфон apple iphone 16 128gb pink
+2025-01-20 06:24:54,037 - INFO - cleaned product name: Apple Iphone 16 128 Gb
+2025-01-20 06:24:54,037 - INFO - processing JS object name: Apple Iphone 16 128 Gb with element number 3
+2025-01-20 06:24:54,037 - INFO - cleaning product name: смартфон apple iphone 16 128gb white
+2025-01-20 06:24:54,037 - INFO - cleaned product name: Apple Iphone 16 128 Gb
+2025-01-20 06:24:54,037 - INFO - processing JS object name: Apple Iphone 16 128 Gb with element number 4
+2025-01-20 06:24:54,037 - INFO - cleaning product name: смартфон tecno spark 10 pro (8/128) black
+2025-01-20 06:24:54,038 - INFO - cleaned product name: Tecno Spark 10 Pro 8/128 Gb
+2025-01-20 06:24:54,038 - INFO - processing JS object name: Tecno Spark 10 Pro 8/128 Gb with element number 5
+2025-01-20 06:24:54,038 - INFO - cleaning product name: смартфон tecno spark 10 (8/128) meta black
+2025-01-20 06:24:54,039 - INFO - cleaned product name: Tecno Spark 10 8/128 Gb
+2025-01-20 06:24:54,039 - INFO - processing JS object name: Tecno Spark 10 8/128 Gb with element number 6
+2025-01-20 06:24:54,039 - INFO - cleaning product name: смартфон tecno spark 10 (4/128) meta blue
+2025-01-20 06:24:54,039 - INFO - cleaned product name: Tecno Spark 10 4/128 Gb
+2025-01-20 06:24:54,039 - INFO - processing JS object name: Tecno Spark 10 4/128 Gb with element number 7
+2025-01-20 06:24:54,039 - INFO - cleaning product name: смартфон tecno camon 20 pro (8/256) predawn black
+2025-01-20 06:24:54,039 - INFO - cleaned product name: Tecno Camon 20 Pro 8/256 Gb
+2025-01-20 06:24:54,039 - INFO - processing JS object name: Tecno Camon 20 Pro 8/256 Gb with element number 8
+2025-01-20 06:24:54,040 - INFO - cleaning product name: смартфон xiaomi redmi a3 3/64 star blue
+2025-01-20 06:24:54,040 - INFO - cleaned product name: Xiaomi Redmi A3 3/64 Gb
+2025-01-20 06:24:54,041 - INFO - processing JS object name: Xiaomi Redmi A3 3/64 Gb with element number 9
+2025-01-20 06:24:54,041 - INFO - cleaning product name: смартфон xiaomi redmi a3 3/64 midnight black
+2025-01-20 06:24:54,041 - INFO - cleaned product name: Xiaomi Redmi A3 3/64 Gb
+2025-01-20 06:24:54,041 - INFO - processing JS object name: Xiaomi Redmi A3 3/64 Gb with element number 10
+2025-01-20 06:24:54,041 - INFO - cleaning product name: смартфон xiaomi redmi 13 8/256 gold
+2025-01-20 06:24:54,041 - INFO - cleaned product name: Xiaomi Redmi 13 8/256 Gb
+2025-01-20 06:24:54,041 - INFO - processing JS object name: Xiaomi Redmi 13 8/256 Gb with element number 11
+2025-01-20 06:24:54,041 - INFO - cleaning product name: смартфон xiaomi redmi 13 8/256 blue
+2025-01-20 06:24:54,041 - INFO - cleaned product name: Xiaomi Redmi 13 8/256 Gb
+2025-01-20 06:24:54,041 - INFO - processing JS object name: Xiaomi Redmi 13 8/256 Gb with element number 12
+2025-01-20 06:24:54,041 - INFO - cleaning product name: смартфон xiaomi redmi 13 8/256 black
+2025-01-20 06:24:54,041 - INFO - cleaned product name: Xiaomi Redmi 13 8/256 Gb
+2025-01-20 06:24:54,041 - INFO - processing JS object name: Xiaomi Redmi 13 8/256 Gb with element number 13
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон honor x8b 8/256 gb emerald green
+2025-01-20 06:24:54,042 - INFO - cleaned product name: Honor X8b 8/256 Gb
+2025-01-20 06:24:54,042 - INFO - processing JS object name: Honor X8b 8/256 Gb with element number 14
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон honor x8b 8/256 gb midnight black 
+2025-01-20 06:24:54,042 - INFO - cleaned product name: Honor X8b 8/256 Gb
+2025-01-20 06:24:54,042 - INFO - processing JS object name: Honor X8b 8/256 Gb with element number 15
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон samsung sm-s926b s24+ 256gb gray
+2025-01-20 06:24:54,042 - INFO - cleaned product name: Samsung Galaxy S24+ 256 Gb
+2025-01-20 06:24:54,042 - INFO - processing JS object name: Samsung Galaxy S24+ 256 Gb with element number 16
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон vivo y18 6/128 wave aqua
+2025-01-20 06:24:54,042 - INFO - cleaned product name: Vivo Y18 6/128 Gb
+2025-01-20 06:24:54,042 - INFO - processing JS object name: Vivo Y18 6/128 Gb with element number 17
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон vivo y18 6/128 mocha brown
+2025-01-20 06:24:54,042 - INFO - cleaned product name: Vivo Y18 6/128 Gb
+2025-01-20 06:24:54,042 - INFO - processing JS object name: Vivo Y18 6/128 Gb with element number 18
+2025-01-20 06:24:54,042 - INFO - cleaning product name: смартфон samsung sm-a536e a53 256gb white
+2025-01-20 06:24:54,043 - INFO - cleaned product name: Samsung Galaxy A53 256 Gb
+2025-01-20 06:24:54,043 - INFO - processing JS object name: Samsung Galaxy A53 256 Gb with element number 19
+2025-01-20 06:24:54,043 - INFO - cleaning product name: смартфон vivo y17s 4/128 forest green
+2025-01-20 06:24:54,043 - INFO - cleaned product name: Vivo Y17s 4/128 Gb
+2025-01-20 06:24:54,043 - INFO - processing JS object name: Vivo Y17s 4/128 Gb with element number 20
+2025-01-20 06:24:54,043 - INFO - cleaning product name: смартфон vivo y17s 4/128 diamond orange
+2025-01-20 06:24:54,043 - INFO - cleaned product name: Vivo Y17s 4/128 Gb
+2025-01-20 06:24:54,043 - INFO - processing JS object name: Vivo Y17s 4/128 Gb with element number 21
+2025-01-20 06:24:54,043 - INFO - cleaning product name: смартфон samsung sm-a042f a04e 64gb copper
+2025-01-20 06:24:54,043 - INFO - cleaned product name: Samsung Galaxy A04e 64 Gb
+2025-01-20 06:24:54,043 - INFO - processing JS object name: Samsung Galaxy A04e 64 Gb with element number 22
+2025-01-20 06:24:54,043 - INFO - cleaning product name: смартфон realme 10 pro+ (12/256) rmx3686 dark matter
+2025-01-20 06:24:54,044 - INFO - cleaned product name: Realme 10 Pro+ 12/256 Gb
+2025-01-20 06:24:54,044 - INFO - processing JS object name: Realme 10 Pro+ 12/256 Gb with element number 23
+2025-01-20 06:24:54,044 - INFO - cleaning product name: смартфон oppo reno 11f 5g (8/256) palm green
+2025-01-20 06:24:54,044 - INFO - cleaned product name: Oppo Reno 11f 8/256 Gb
+2025-01-20 06:24:54,044 - INFO - processing JS object name: Oppo Reno 11f 8/256 Gb with element number 24
+2025-01-20 06:24:54,044 - INFO - JS
+2025-01-20 06:24:54,484 - INFO - Processing page 3 of 30
+2025-01-20 06:24:54,635 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:54,637 - INFO - cleaning product name: смартфон realme 10 pro+ (12/256) rmx3686 dark matter
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Realme 10 Pro+ 12/256 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Realme 10 Pro+ 12/256 Gb with element number 1
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo reno 11f 5g (8/256) palm green
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo Reno 11f 8/256 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo Reno 11f 8/256 Gb with element number 2
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo reno 11f 5g (8/256) ocean blue
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo Reno 11f 8/256 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo Reno 11f 8/256 Gb with element number 3
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo reno 11 5g (12/256) wave green
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo Reno 11 12/256 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo Reno 11 12/256 Gb with element number 4
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo reno 11 5g (12/256) rock gray
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo Reno 11 12/256 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo Reno 11 12/256 Gb with element number 5
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo a60 (8/128) ripple blue
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo A60 8/128 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo A60 8/128 Gb with element number 6
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo a60 (8/128) midnight purple
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo A60 8/128 Gb
+2025-01-20 06:24:54,638 - INFO - processing JS object name: Oppo A60 8/128 Gb with element number 7
+2025-01-20 06:24:54,638 - INFO - cleaning product name: смартфон oppo a18 (4/128) glowing blue
+2025-01-20 06:24:54,638 - INFO - cleaned product name: Oppo A18 4/128 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Oppo A18 4/128 Gb with element number 8
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон oppo a18 (4/128) glowing black
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Oppo A18 4/128 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Oppo A18 4/128 Gb with element number 9
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x9a (6/128) black
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X9a 6/128 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X9a 6/128 Gb with element number 10
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x8b (8/256) silver
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X8b 8/256 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X8b 8/256 Gb with element number 11
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x8b (8/128) silver
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X8b 8/128 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X8b 8/128 Gb with element number 12
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x8b (8/128) black
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X8b 8/128 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X8b 8/128 Gb with element number 13
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон vivo y03 4/64 space black
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Vivo Y03 4/64 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Vivo Y03 4/64 Gb with element number 14
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x7b (6/256) midnight black
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X7b 6/256 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X7b 6/256 Gb with element number 15
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x7b (6/256) flowing silver
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X7b 6/256 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X7b 6/256 Gb with element number 16
+2025-01-20 06:24:54,639 - INFO - cleaning product name: смартфон honor x7b (6/256) emerland green
+2025-01-20 06:24:54,639 - INFO - cleaned product name: Honor X7b 6/256 Gb
+2025-01-20 06:24:54,639 - INFO - processing JS object name: Honor X7b 6/256 Gb with element number 17
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон tecno spark 20c 8/128 mystery white
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Tecno Spark 20c 8/128 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Tecno Spark 20c 8/128 Gb with element number 18
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон honor x6b (6/256) black
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Honor X6b 6/256 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Honor X6b 6/256 Gb with element number 19
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон honor x6a (6/128) silver
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Honor X6a 6/128 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Honor X6a 6/128 Gb with element number 20
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон honor x6b 6/256 green
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Honor X6b 6/256 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Honor X6b 6/256 Gb with element number 21
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон tecno spark 20 8/128 magic skin blue
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Tecno Spark 20 8/128 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Tecno Spark 20 8/128 Gb with element number 22
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон tecno spark 20 8/128 gravity black
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Tecno Spark 20 8/128 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Tecno Spark 20 8/128 Gb with element number 23
+2025-01-20 06:24:54,640 - INFO - cleaning product name: смартфон honor 200 lite (8/256) blue
+2025-01-20 06:24:54,640 - INFO - cleaned product name: Honor 200 Lite 8/256 Gb
+2025-01-20 06:24:54,640 - INFO - processing JS object name: Honor 200 Lite 8/256 Gb with element number 24
+2025-01-20 06:24:54,640 - INFO - JS
+2025-01-20 06:24:55,133 - INFO - Processing page 4 of 30
+2025-01-20 06:24:55,307 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:55,309 - INFO - cleaning product name: смартфон apple iphone 15 (256gb) blue
+2025-01-20 06:24:55,309 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:24:55,309 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 1
+2025-01-20 06:24:55,309 - INFO - cleaning product name: смартфон apple iphone 15 (128gb) green
+2025-01-20 06:24:55,309 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:24:55,309 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 2
+2025-01-20 06:24:55,309 - INFO - cleaning product name: смартфон honor 200 8/256 white
+2025-01-20 06:24:55,309 - INFO - cleaned product name: Honor 200 8/256 Gb
+2025-01-20 06:24:55,309 - INFO - processing JS object name: Honor 200 8/256 Gb with element number 3
+2025-01-20 06:24:55,310 - INFO - cleaning product name: смартфон honor 200 8/256 black
+2025-01-20 06:24:55,310 - INFO - cleaned product name: Honor 200 8/256 Gb
+2025-01-20 06:24:55,310 - INFO - processing JS object name: Honor 200 8/256 Gb with element number 4
+2025-01-20 06:24:55,310 - INFO - cleaning product name: смартфон tecno spark 10 pro 8/256 starry black
+2025-01-20 06:24:55,310 - INFO - cleaned product name: Tecno Spark 10 Pro 8/256 Gb
+2025-01-20 06:24:55,310 - INFO - processing JS object name: Tecno Spark 10 Pro 8/256 Gb with element number 5
+2025-01-20 06:24:55,310 - INFO - cleaning product name: смартфон tecno spark 10 pro 8/128 pearl white
+2025-01-20 06:24:55,310 - INFO - cleaned product name: Tecno Spark 10 Pro 8/128 Gb
+2025-01-20 06:24:55,310 - INFO - processing JS object name: Tecno Spark 10 Pro 8/128 Gb with element number 6
+2025-01-20 06:24:55,310 - INFO - cleaning product name: смартфон realme c65 8/256 black
+2025-01-20 06:24:55,310 - INFO - cleaned product name: Realme C65 8/256 Gb
+2025-01-20 06:24:55,310 - INFO - processing JS object name: Realme C65 8/256 Gb with element number 7
+2025-01-20 06:24:55,310 - INFO - cleaning product name: смартфон realme note 50 3/64gb sky blue
+2025-01-20 06:24:55,310 - INFO - cleaned product name: Realme Note 50 3/64 Gb
+2025-01-20 06:24:55,310 - INFO - processing JS object name: Realme Note 50 3/64 Gb with element number 8
+2025-01-20 06:24:55,310 - INFO - JS
+2025-01-20 06:24:56,386 - INFO - Processing page 5 of 30
+2025-01-20 06:24:56,599 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:56,601 - INFO - cleaning product name: смартфон huawei nova 12se (8/256) green
+2025-01-20 06:24:56,601 - INFO - cleaned product name: Huawei Nova 12se 8/256 Gb
+2025-01-20 06:24:56,601 - INFO - processing JS object name: Huawei Nova 12se 8/256 Gb with element number 1
+2025-01-20 06:24:56,601 - INFO - cleaning product name: смартфон huawei nova 12se (8/256) black
+2025-01-20 06:24:56,601 - INFO - cleaned product name: Huawei Nova 12se 8/256 Gb
+2025-01-20 06:24:56,601 - INFO - processing JS object name: Huawei Nova 12se 8/256 Gb with element number 2
+2025-01-20 06:24:56,602 - INFO - JS
+2025-01-20 06:24:57,068 - INFO - Processing page 6 of 30
+2025-01-20 06:24:57,277 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон huawei nova 10 se 8/128 gb mint green
+2025-01-20 06:24:57,279 - INFO - cleaned product name: Huawei Nova 10 Se 8/128 Gb
+2025-01-20 06:24:57,279 - INFO - processing JS object name: Huawei Nova 10 Se 8/128 Gb with element number 1
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон huawei nova y61 4/64 gb mint green
+2025-01-20 06:24:57,279 - INFO - cleaned product name: Huawei Nova Y61 4/64 Gb
+2025-01-20 06:24:57,279 - INFO - processing JS object name: Huawei Nova Y61 4/64 Gb with element number 2
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон xiaomi redmi 10 6/128 gb gray carbon
+2025-01-20 06:24:57,279 - INFO - cleaned product name: Xiaomi Redmi 10 6/128 Gb
+2025-01-20 06:24:57,279 - INFO - processing JS object name: Xiaomi Redmi 10 6/128 Gb with element number 3
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон vivo y22 4/64 gb starlit blue
+2025-01-20 06:24:57,279 - INFO - cleaned product name: Vivo Y22 4/64 Gb
+2025-01-20 06:24:57,279 - INFO - processing JS object name: Vivo Y22 4/64 Gb with element number 4
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон vivo y22 4/64 gb metaverse green
+2025-01-20 06:24:57,279 - INFO - cleaned product name: Vivo Y22 4/64 Gb
+2025-01-20 06:24:57,279 - INFO - processing JS object name: Vivo Y22 4/64 Gb with element number 5
+2025-01-20 06:24:57,279 - INFO - cleaning product name: смартфон samsung galaxy a04s 3/32 gb copper
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A04s 32 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A04s 32 Gb with element number 6
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон samsung galaxy a04s 4/64 gb black
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A04s 64 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A04s 64 Gb with element number 7
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон samsung galaxy a04s 4/64 gb copper
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A04s 64 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A04s 64 Gb with element number 8
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон samsung galaxy a04s 4/64 gb green
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A04s 64 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A04s 64 Gb with element number 9
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон vivo y33s 4/64 gb midday dream
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Vivo Y33s 4/64 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Vivo Y33s 4/64 Gb with element number 10
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон samsung galaxy a04s 3/32 gb black
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A04s 32 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A04s 32 Gb with element number 11
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон tecno pova 2 4/128 gb (le7n) dazzling black
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Tecno Pova 2 4/128 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Tecno Pova 2 4/128 Gb with element number 12
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон samsung galaxy a13 3/128 gb black
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Samsung Galaxy A13 128 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Samsung Galaxy A13 128 Gb with element number 13
+2025-01-20 06:24:57,280 - INFO - cleaning product name: смартфон tecno spark 7 2/32 gb (kf6m) spruce green
+2025-01-20 06:24:57,280 - INFO - cleaned product name: Tecno Spark 7 2/32 Gb
+2025-01-20 06:24:57,280 - INFO - processing JS object name: Tecno Spark 7 2/32 Gb with element number 14
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y70 4/64 gb midnight black
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y70 4/64 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y70 4/64 Gb with element number 15
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y70 4/64 gb blue crystal
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y70 4/64 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y70 4/64 Gb with element number 16
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y70 4/128 gb midnight black
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y70 4/128 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y70 4/128 Gb with element number 17
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y90 4/128 gb blue crystal
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y90 4/128 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y90 4/128 Gb with element number 18
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y90 4/128 gb emerald green
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y90 4/128 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y90 4/128 Gb with element number 19
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova y90 4/128 gb midnight black
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova Y90 4/128 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova Y90 4/128 Gb with element number 20
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova 9se 8/128 gb midnight black
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova 9se 8/128 Gb
+2025-01-20 06:24:57,281 - INFO - processing JS object name: Huawei Nova 9se 8/128 Gb with element number 21
+2025-01-20 06:24:57,281 - INFO - cleaning product name: смартфон huawei nova 9se 8/128 gb blue crystal
+2025-01-20 06:24:57,281 - INFO - cleaned product name: Huawei Nova 9se 8/128 Gb
+2025-01-20 06:24:57,282 - INFO - processing JS object name: Huawei Nova 9se 8/128 Gb with element number 22
+2025-01-20 06:24:57,282 - INFO - cleaning product name: смартфон huawei nova 9se 8/128 gb white
+2025-01-20 06:24:57,282 - INFO - cleaned product name: Huawei Nova 9se 8/128 Gb
+2025-01-20 06:24:57,282 - INFO - processing JS object name: Huawei Nova 9se 8/128 Gb with element number 23
+2025-01-20 06:24:57,282 - INFO - cleaning product name: смартфон huawei p50 pro 8/256 gb black
+2025-01-20 06:24:57,282 - INFO - cleaned product name: Huawei P50 Pro 8/256 Gb
+2025-01-20 06:24:57,282 - INFO - processing JS object name: Huawei P50 Pro 8/256 Gb with element number 24
+2025-01-20 06:24:57,282 - INFO - JS
+2025-01-20 06:24:57,698 - INFO - Processing page 7 of 30
+2025-01-20 06:24:57,895 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:57,898 - INFO - cleaning product name: смартфон huawei p50 pro 8/256 gb light gold
+2025-01-20 06:24:57,898 - INFO - cleaned product name: Huawei P50 Pro 8/256 Gb
+2025-01-20 06:24:57,898 - INFO - processing JS object name: Huawei P50 Pro 8/256 Gb with element number 1
+2025-01-20 06:24:57,898 - INFO - cleaning product name: смартфон tecno pop 5 lite 2/32 gb blue
+2025-01-20 06:24:57,899 - INFO - cleaned product name: Tecno Pop 5 Lite 2/32 Gb
+2025-01-20 06:24:57,899 - INFO - processing JS object name: Tecno Pop 5 Lite 2/32 Gb with element number 2
+2025-01-20 06:24:57,899 - INFO - cleaning product name: смартфон oppo a17 4/64 gb midnight black
+2025-01-20 06:24:57,899 - INFO - cleaned product name: Oppo A17 4/64 Gb
+2025-01-20 06:24:57,899 - INFO - processing JS object name: Oppo A17 4/64 Gb with element number 3
+2025-01-20 06:24:57,899 - INFO - cleaning product name: смартфон oppo a17 4/64 gb lake blue
+2025-01-20 06:24:57,899 - INFO - cleaned product name: Oppo A17 4/64 Gb
+2025-01-20 06:24:57,899 - INFO - processing JS object name: Oppo A17 4/64 Gb with element number 4
+2025-01-20 06:24:57,899 - INFO - cleaning product name: смартфон oppo a57s 4/64 gb starry black
+2025-01-20 06:24:57,899 - INFO - cleaned product name: Oppo A57s 4/64 Gb
+2025-01-20 06:24:57,899 - INFO - processing JS object name: Oppo A57s 4/64 Gb with element number 5
+2025-01-20 06:24:57,899 - INFO - cleaning product name: смартфон oppo a55 4/64 gb rainbow blue
+2025-01-20 06:24:57,899 - INFO - cleaned product name: Oppo A55 4/64 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Oppo A55 4/64 Gb with element number 6
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон samsung galaxy a23 4/128 gb black
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Samsung Galaxy A23 128 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Samsung Galaxy A23 128 Gb with element number 7
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон oppo a96 6/128 gb black
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Oppo A96 6/128 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Oppo A96 6/128 Gb with element number 8
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон xiaomi redmi 10c 3/64 gb green
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Xiaomi Redmi 10c 3/64 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Xiaomi Redmi 10c 3/64 Gb with element number 9
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон apple iphone 14 pro max 512 gb deep purple
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Apple Iphone 14 Pro Max 512 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Apple Iphone 14 Pro Max 512 Gb with element number 10
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон vivo y35 4/128 gb gold
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Vivo Y35 4/128 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Vivo Y35 4/128 Gb with element number 11
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон xiaomi 12 12/256 gb blue
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Xiaomi 12 12/256 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Xiaomi 12 12/256 Gb with element number 12
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон xiaomi 12 8/256 gb blue
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Xiaomi 12 8/256 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Xiaomi 12 8/256 Gb with element number 13
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон xiaomi 12 8/256 gb grey
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Xiaomi 12 8/256 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Xiaomi 12 8/256 Gb with element number 14
+2025-01-20 06:24:57,900 - INFO - cleaning product name: смартфон xiaomi 12 8/128 gb blue
+2025-01-20 06:24:57,900 - INFO - cleaned product name: Xiaomi 12 8/128 Gb
+2025-01-20 06:24:57,900 - INFO - processing JS object name: Xiaomi 12 8/128 Gb with element number 15
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон samsung galaxy a03s 3/32 gb black
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Samsung Galaxy A03s 32 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Samsung Galaxy A03s 32 Gb with element number 16
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10c 4/128 gb blue
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10c 4/128 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10c 4/128 Gb with element number 17
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 3/64 gb silver
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 3/64 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 3/64 Gb with element number 18
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 3/64 gb blue
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 3/64 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 3/64 Gb with element number 19
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 2/32 gb blue
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 2/32 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 2/32 Gb with element number 20
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 2/32 gb silver
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 2/32 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 2/32 Gb with element number 21
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 4/128 gb silver
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 4/128 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 4/128 Gb with element number 22
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон xiaomi redmi 10a 4/128 gb gray
+2025-01-20 06:24:57,901 - INFO - cleaned product name: Xiaomi Redmi 10a 4/128 Gb
+2025-01-20 06:24:57,901 - INFO - processing JS object name: Xiaomi Redmi 10a 4/128 Gb with element number 23
+2025-01-20 06:24:57,901 - INFO - cleaning product name: смартфон realme c11 (2021) 2/32 gb iron grey
+2025-01-20 06:24:57,902 - INFO - cleaned product name: Realme C11 2021 2/32 Gb
+2025-01-20 06:24:57,902 - INFO - processing JS object name: Realme C11 2021 2/32 Gb with element number 24
+2025-01-20 06:24:57,902 - INFO - JS
+2025-01-20 06:24:58,316 - INFO - Processing page 8 of 30
+2025-01-20 06:24:58,523 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:58,525 - INFO - cleaning product name: смартфон xiaomi redmi note 10 8/128 gb green
+2025-01-20 06:24:58,525 - INFO - cleaned product name: Xiaomi Redmi Note 10 8/128 Gb
+2025-01-20 06:24:58,525 - INFO - processing JS object name: Xiaomi Redmi Note 10 8/128 Gb with element number 1
+2025-01-20 06:24:58,525 - INFO - cleaning product name: смартфон xiaomi redmi note 10 8/128 gb gray
+2025-01-20 06:24:58,525 - INFO - cleaned product name: Xiaomi Redmi Note 10 8/128 Gb
+2025-01-20 06:24:58,525 - INFO - processing JS object name: Xiaomi Redmi Note 10 8/128 Gb with element number 2
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy z fold 4 8/256 gb gray
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy Z Fold 4 256 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy Z Fold 4 256 Gb with element number 3
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy z fold 4 8/256 gb beige
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy Z Fold 4 256 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy Z Fold 4 256 Gb with element number 4
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy z fold 4 8/256 gb black
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy Z Fold 4 256 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy Z Fold 4 256 Gb with element number 5
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy z fold 4 8/512 gb gray
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy Z Fold 4 512 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy Z Fold 4 512 Gb with element number 6
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy z flip4 8/128 gb blue
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy Z Flip4 128 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy Z Flip4 128 Gb with element number 7
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy a03 4/64 gb black
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy A03 64 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy A03 64 Gb with element number 8
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy a03 4/64 gb blue
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy A03 64 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy A03 64 Gb with element number 9
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон samsung galaxy a03 4/64 gb red
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Samsung Galaxy A03 64 Gb
+2025-01-20 06:24:58,526 - INFO - processing JS object name: Samsung Galaxy A03 64 Gb with element number 10
+2025-01-20 06:24:58,526 - INFO - cleaning product name: смартфон tecno camon 18 6/128 gb (ch6n) gloomy gray
+2025-01-20 06:24:58,526 - INFO - cleaned product name: Tecno Camon 18 6/128 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Tecno Camon 18 6/128 Gb with element number 11
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон oppo a72 4/128 gb purple
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Oppo A72 4/128 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Oppo A72 4/128 Gb with element number 12
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон oppo a72 4/128 gb white
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Oppo A72 4/128 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Oppo A72 4/128 Gb with element number 13
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон oppo a72 4/128 gb black
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Oppo A72 4/128 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Oppo A72 4/128 Gb with element number 14
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон samsung galaxy a13 4/64 gb blue
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Samsung Galaxy A13 64 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Samsung Galaxy A13 64 Gb with element number 15
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон samsung galaxy a23 4/64 gb black
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Samsung Galaxy A23 64 Gb
+2025-01-20 06:24:58,527 - INFO - processing JS object name: Samsung Galaxy A23 64 Gb with element number 16
+2025-01-20 06:24:58,527 - INFO - cleaning product name: смартфон samsung galaxy a73 6/128 gb gray
+2025-01-20 06:24:58,527 - INFO - cleaned product name: Samsung Galaxy A73 128 Gb
+2025-01-20 06:24:58,528 - INFO - processing JS object name: Samsung Galaxy A73 128 Gb with element number 17
+2025-01-20 06:24:58,528 - INFO - cleaning product name: смартфон samsung galaxy a73 6/128 gb mint
+2025-01-20 06:24:58,528 - INFO - cleaned product name: Samsung Galaxy A73 128 Gb
+2025-01-20 06:24:58,528 - INFO - processing JS object name: Samsung Galaxy A73 128 Gb with element number 18
+2025-01-20 06:24:58,528 - INFO - cleaning product name: смартфон samsung galaxy a73 6/128 gb white
+2025-01-20 06:24:58,528 - INFO - cleaned product name: Samsung Galaxy A73 128 Gb
+2025-01-20 06:24:58,528 - INFO - processing JS object name: Samsung Galaxy A73 128 Gb with element number 19
+2025-01-20 06:24:58,528 - INFO - cleaning product name: смартфон oppo a16 3/32 gb blue
+2025-01-20 06:24:58,529 - INFO - cleaned product name: Oppo A16 3/32 Gb
+2025-01-20 06:24:58,529 - INFO - processing JS object name: Oppo A16 3/32 Gb with element number 20
+2025-01-20 06:24:58,529 - INFO - cleaning product name: смартфон oppo reno 7 8/128 gb sunset orange
+2025-01-20 06:24:58,529 - INFO - cleaned product name: Oppo Reno 7 8/128 Gb
+2025-01-20 06:24:58,529 - INFO - processing JS object name: Oppo Reno 7 8/128 Gb with element number 21
+2025-01-20 06:24:58,529 - INFO - cleaning product name: смартфон samsung galaxy a13 3/32 gb white
+2025-01-20 06:24:58,530 - INFO - cleaned product name: Samsung Galaxy A13 32 Gb
+2025-01-20 06:24:58,530 - INFO - processing JS object name: Samsung Galaxy A13 32 Gb with element number 22
+2025-01-20 06:24:58,530 - INFO - cleaning product name: смартфон samsung galaxy a13 3/32 gb blue
+2025-01-20 06:24:58,530 - INFO - cleaned product name: Samsung Galaxy A13 32 Gb
+2025-01-20 06:24:58,530 - INFO - processing JS object name: Samsung Galaxy A13 32 Gb with element number 23
+2025-01-20 06:24:58,530 - INFO - cleaning product name: смартфон samsung galaxy a23 4/64 gb white
+2025-01-20 06:24:58,530 - INFO - cleaned product name: Samsung Galaxy A23 64 Gb
+2025-01-20 06:24:58,530 - INFO - processing JS object name: Samsung Galaxy A23 64 Gb with element number 24
+2025-01-20 06:24:58,531 - INFO - JS
+2025-01-20 06:24:59,004 - INFO - Processing page 9 of 30
+2025-01-20 06:24:59,183 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:59,185 - INFO - cleaning product name: смартфон samsung galaxy a22 5g 4/64 gb black
+2025-01-20 06:24:59,185 - INFO - cleaned product name: Samsung Galaxy A22 64 Gb
+2025-01-20 06:24:59,185 - INFO - processing JS object name: Samsung Galaxy A22 64 Gb with element number 1
+2025-01-20 06:24:59,185 - INFO - cleaning product name: смартфон samsung galaxy a22 5g 4/64 gb violet
+2025-01-20 06:24:59,185 - INFO - cleaned product name: Samsung Galaxy A22 64 Gb
+2025-01-20 06:24:59,185 - INFO - processing JS object name: Samsung Galaxy A22 64 Gb with element number 2
+2025-01-20 06:24:59,185 - INFO - cleaning product name: смартфон samsung galaxy a33 6/128 gb blue
+2025-01-20 06:24:59,185 - INFO - cleaned product name: Samsung Galaxy A33 128 Gb
+2025-01-20 06:24:59,185 - INFO - processing JS object name: Samsung Galaxy A33 128 Gb with element number 3
+2025-01-20 06:24:59,185 - INFO - cleaning product name: смартфон tecno spark go 2022 2/32 гб blue
+2025-01-20 06:24:59,185 - INFO - cleaned product name: Tecno Spark Go 2022 2/32 Gb
+2025-01-20 06:24:59,185 - INFO - processing JS object name: Tecno Spark Go 2022 2/32 Gb with element number 4
+2025-01-20 06:24:59,185 - INFO - cleaning product name: смартфон xiaomi redmi 10 6/128 gb sea blue
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Xiaomi Redmi 10 6/128 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Xiaomi Redmi 10 6/128 Gb with element number 5
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон xiaomi redmi 9c 4/128 gb twilight blue
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Xiaomi Redmi 9c 4/128 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Xiaomi Redmi 9c 4/128 Gb with element number 6
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон samsung galaxy a12 4/64 gb blue
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Samsung Galaxy A12 64 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Samsung Galaxy A12 64 Gb with element number 7
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон xiaomi redmi note 10 6/128 gb gray
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Xiaomi Redmi Note 10 6/128 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Xiaomi Redmi Note 10 6/128 Gb with element number 8
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон samsung galaxy a53 5g 6/128 gb awesome black
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Samsung Galaxy A53 128 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Samsung Galaxy A53 128 Gb with element number 9
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон samsung galaxy a13 3/32gb black
+2025-01-20 06:24:59,186 - INFO - cleaned product name: Samsung Galaxy A13 32 Gb
+2025-01-20 06:24:59,186 - INFO - processing JS object name: Samsung Galaxy A13 32 Gb with element number 10
+2025-01-20 06:24:59,186 - INFO - cleaning product name: смартфон oppo reno 7 8/128 gb black
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Oppo Reno 7 8/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Oppo Reno 7 8/128 Gb with element number 11
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон vivo y21 4/64 gb metallic blue
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Vivo Y21 4/64 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Vivo Y21 4/64 Gb with element number 12
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон vivo y33s 4/128 gb mirror black
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Vivo Y33s 4/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Vivo Y33s 4/128 Gb with element number 13
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон tecno spark 8p 4/64 gb turquoise cyan
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Tecno Spark 8p 4/64 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Tecno Spark 8p 4/64 Gb with element number 14
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон xiaomi redmi 9c 4/128 gb midnight gray
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Xiaomi Redmi 9c 4/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Xiaomi Redmi 9c 4/128 Gb with element number 15
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон xiaomi redmi 9c 4/128 gb purple
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Xiaomi Redmi 9c 4/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Xiaomi Redmi 9c 4/128 Gb with element number 16
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон oppo a91 8/128 gb red
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Oppo A91 8/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Oppo A91 8/128 Gb with element number 17
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон xiaomi redmi note 9t 4/128 gb puple
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Xiaomi Redmi Note 9t 4/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Xiaomi Redmi Note 9t 4/128 Gb with element number 18
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон vivo y15s 3/32 gb blue
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Vivo Y15s 3/32 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Vivo Y15s 3/32 Gb with element number 19
+2025-01-20 06:24:59,187 - INFO - cleaning product name: смартфон vivo v23 5g 8/128 gb black
+2025-01-20 06:24:59,187 - INFO - cleaned product name: Vivo V23 8/128 Gb
+2025-01-20 06:24:59,187 - INFO - processing JS object name: Vivo V23 8/128 Gb with element number 20
+2025-01-20 06:24:59,188 - INFO - cleaning product name: смартфон samsung galaxy a03 core 2/32 gb blue
+2025-01-20 06:24:59,188 - INFO - cleaned product name: Samsung Galaxy A03 Core 32 Gb
+2025-01-20 06:24:59,188 - INFO - processing JS object name: Samsung Galaxy A03 Core 32 Gb with element number 21
+2025-01-20 06:24:59,188 - INFO - cleaning product name: смартфон samsung galaxy s22 8/256 gb green
+2025-01-20 06:24:59,188 - INFO - cleaned product name: Samsung Galaxy S22 256 Gb
+2025-01-20 06:24:59,188 - INFO - processing JS object name: Samsung Galaxy S22 256 Gb with element number 22
+2025-01-20 06:24:59,188 - INFO - cleaning product name: смартфон samsung galaxy s22 8/256 gb phantom black
+2025-01-20 06:24:59,188 - INFO - cleaned product name: Samsung Galaxy S22 256 Gb
+2025-01-20 06:24:59,188 - INFO - processing JS object name: Samsung Galaxy S22 256 Gb with element number 23
+2025-01-20 06:24:59,188 - INFO - cleaning product name: смартфон samsung galaxy s22 8/256 gb phantom white
+2025-01-20 06:24:59,188 - INFO - cleaned product name: Samsung Galaxy S22 256 Gb
+2025-01-20 06:24:59,188 - INFO - processing JS object name: Samsung Galaxy S22 256 Gb with element number 24
+2025-01-20 06:24:59,188 - INFO - JS
+2025-01-20 06:24:59,635 - INFO - Processing page 10 of 30
+2025-01-20 06:24:59,815 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:24:59,816 - INFO - cleaning product name: смартфон xiaomi mi 11 lite 8/128gb green
+2025-01-20 06:24:59,816 - INFO - cleaned product name: Xiaomi Mi 11 Lite 8/128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Xiaomi Mi 11 Lite 8/128 Gb with element number 1
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон xiaomi 11t 8/128 gb gray
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Xiaomi 11t 8/128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Xiaomi 11t 8/128 Gb with element number 2
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон xiaomi redmi note 10 6/128 gb blue
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Xiaomi Redmi Note 10 6/128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Xiaomi Redmi Note 10 6/128 Gb with element number 3
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон samsung galaxy z fold3 12/256 gb silver
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Samsung Galaxy Z Fold3 256 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Samsung Galaxy Z Fold3 256 Gb with element number 4
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон vivo y53s 8/128 gb rainbow
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Vivo Y53s 8/128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Vivo Y53s 8/128 Gb with element number 5
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон vivo y53s 8/128 gb blue
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Vivo Y53s 8/128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Vivo Y53s 8/128 Gb with element number 6
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон apple iphone 13 128 gb midnight
+2025-01-20 06:24:59,817 - INFO - cleaned product name: Apple Iphone 13 128 Gb
+2025-01-20 06:24:59,817 - INFO - processing JS object name: Apple Iphone 13 128 Gb with element number 7
+2025-01-20 06:24:59,817 - INFO - cleaning product name: смартфон artel u1 mini black
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Artel U1 Mini
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Artel U1 Mini with element number 8
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон samsung galaxy a12 2/32 gb black
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Samsung Galaxy A12 32 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Samsung Galaxy A12 32 Gb with element number 9
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон xiaomi redmi note 10s 6/64 gb white
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Xiaomi Redmi Note 10s 6/64 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Xiaomi Redmi Note 10s 6/64 Gb with element number 10
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон samsung galaxy a12 4/64 gb black
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Samsung Galaxy A12 64 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Samsung Galaxy A12 64 Gb with element number 11
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон samsung galaxy a03s 4/64 gb blue
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Samsung Galaxy A03s 64 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Samsung Galaxy A03s 64 Gb with element number 12
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон xiaomi redmi 10 4/128 gb blue ocean
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Xiaomi Redmi 10 4/128 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Xiaomi Redmi 10 4/128 Gb with element number 13
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон general mobile 6 3/32 gb white
+2025-01-20 06:24:59,818 - INFO - cleaned product name: General Mobile 6 3/32 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: General Mobile 6 3/32 Gb with element number 14
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон vivo v21 8/128 gb dusk blue
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Vivo V21 8/128 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Vivo V21 8/128 Gb with element number 15
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон samsung galaxy a02 2/32 gb
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Samsung Galaxy A02 32 Gb
+2025-01-20 06:24:59,818 - INFO - processing JS object name: Samsung Galaxy A02 32 Gb with element number 16
+2025-01-20 06:24:59,818 - INFO - cleaning product name: смартфон xiaomi poco f3 8/256 gb black
+2025-01-20 06:24:59,818 - INFO - cleaned product name: Xiaomi Poco F3 8/256 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Xiaomi Poco F3 8/256 Gb with element number 17
+2025-01-20 06:24:59,819 - INFO - cleaning product name: смартфон xiaomi mi 11i 8/256 gb black
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 18
+2025-01-20 06:24:59,819 - INFO - cleaning product name:  смартфон xiaomi mi 11i 8/256 gb silver
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 19
+2025-01-20 06:24:59,819 - INFO - cleaning product name:  смартфон xiaomi mi 11i 8/256 gb white
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 20
+2025-01-20 06:24:59,819 - INFO - cleaning product name:  смартфон xiaomi poco f3 6/128 gb white
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Xiaomi Poco F3 6/128 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Xiaomi Poco F3 6/128 Gb with element number 21
+2025-01-20 06:24:59,819 - INFO - cleaning product name: смартфон oppo a54 4/128 gb black
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Oppo A54 4/128 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Oppo A54 4/128 Gb with element number 22
+2025-01-20 06:24:59,819 - INFO - cleaning product name: смартфон oppo a54 4/128gb blue
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Oppo A54 4/128 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Oppo A54 4/128 Gb with element number 23
+2025-01-20 06:24:59,819 - INFO - cleaning product name: смартфон oppo a74 4/128 gb black
+2025-01-20 06:24:59,819 - INFO - cleaned product name: Oppo A74 4/128 Gb
+2025-01-20 06:24:59,819 - INFO - processing JS object name: Oppo A74 4/128 Gb with element number 24
+2025-01-20 06:24:59,820 - INFO - JS
+2025-01-20 06:25:00,516 - INFO - Processing page 11 of 30
+2025-01-20 06:25:00,617 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:00,618 - INFO - cleaning product name: смартфон xiaomi redmi note 10 asia 4/128 gb gray
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Xiaomi Redmi Note 10 4/128 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Xiaomi Redmi Note 10 4/128 Gb with element number 1
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон artel u1 mini black
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Artel U1 Mini
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Artel U1 Mini with element number 2
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон tecno camon 17p 6/128 gb green
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Tecno Camon 17p 6/128 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Tecno Camon 17p 6/128 Gb with element number 3
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон samsung galaxy a12 2/32 gb black
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Samsung Galaxy A12 32 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Samsung Galaxy A12 32 Gb with element number 4
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон apple iphone 13 256 gb pink
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Apple Iphone 13 256 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Apple Iphone 13 256 Gb with element number 5
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон xiaomi redmi note 10s 6/64 gb white
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Xiaomi Redmi Note 10s 6/64 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Xiaomi Redmi Note 10s 6/64 Gb with element number 6
+2025-01-20 06:25:00,619 - INFO - cleaning product name: смартфон samsung galaxy a12 4/64 gb black
+2025-01-20 06:25:00,619 - INFO - cleaned product name: Samsung Galaxy A12 64 Gb
+2025-01-20 06:25:00,619 - INFO - processing JS object name: Samsung Galaxy A12 64 Gb with element number 7
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон samsung galaxy a03s 4/64 gb blue
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Samsung Galaxy A03s 64 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Samsung Galaxy A03s 64 Gb with element number 8
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон vivo v21 8/128 gb sunset dazzle
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Vivo V21 8/128 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Vivo V21 8/128 Gb with element number 9
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон xiaomi redmi 10 4/128 gb blue ocean
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Xiaomi Redmi 10 4/128 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Xiaomi Redmi 10 4/128 Gb with element number 10
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон general mobile 6 3/32 gb white
+2025-01-20 06:25:00,620 - INFO - cleaned product name: General Mobile 6 3/32 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: General Mobile 6 3/32 Gb with element number 11
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон vivo v21 8/128 gb dusk blue
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Vivo V21 8/128 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Vivo V21 8/128 Gb with element number 12
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон samsung galaxy a02 2/32 gb
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Samsung Galaxy A02 32 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Samsung Galaxy A02 32 Gb with element number 13
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон xiaomi poco f3 8/256 gb black
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Xiaomi Poco F3 8/256 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Xiaomi Poco F3 8/256 Gb with element number 14
+2025-01-20 06:25:00,620 - INFO - cleaning product name: смартфон xiaomi mi 11i 8/256 gb black
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 15
+2025-01-20 06:25:00,620 - INFO - cleaning product name:  смартфон xiaomi mi 11i 8/256 gb silver
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:25:00,620 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 16
+2025-01-20 06:25:00,620 - INFO - cleaning product name:  смартфон xiaomi mi 11i 8/256 gb white
+2025-01-20 06:25:00,620 - INFO - cleaned product name: Xiaomi Mi 11i 8/256 Gb
+2025-01-20 06:25:00,621 - INFO - processing JS object name: Xiaomi Mi 11i 8/256 Gb with element number 17
+2025-01-20 06:25:00,621 - INFO - cleaning product name:  смартфон xiaomi poco f3 6/128 gb white
+2025-01-20 06:25:00,621 - INFO - cleaned product name: Xiaomi Poco F3 6/128 Gb
+2025-01-20 06:25:00,621 - INFO - processing JS object name: Xiaomi Poco F3 6/128 Gb with element number 18
+2025-01-20 06:25:00,621 - INFO - cleaning product name: смартфон oppo a54 4/128 gb black
+2025-01-20 06:25:00,621 - INFO - cleaned product name: Oppo A54 4/128 Gb
+2025-01-20 06:25:00,621 - INFO - processing JS object name: Oppo A54 4/128 Gb with element number 19
+2025-01-20 06:25:00,621 - INFO - cleaning product name: смартфон oppo a54 4/128gb blue
+2025-01-20 06:25:00,621 - INFO - cleaned product name: Oppo A54 4/128 Gb
+2025-01-20 06:25:00,621 - INFO - processing JS object name: Oppo A54 4/128 Gb with element number 20
+2025-01-20 06:25:00,621 - INFO - cleaning product name: смартфон oppo a74 4/128 gb black
+2025-01-20 06:25:00,621 - INFO - cleaned product name: Oppo A74 4/128 Gb
+2025-01-20 06:25:00,621 - INFO - processing JS object name: Oppo A74 4/128 Gb with element number 21
+2025-01-20 06:25:00,621 - INFO - cleaning product name: смартфон oppo a74 4/128 gb blue
+2025-01-20 06:25:00,622 - INFO - cleaned product name: Oppo A74 4/128 Gb
+2025-01-20 06:25:00,622 - INFO - processing JS object name: Oppo A74 4/128 Gb with element number 22
+2025-01-20 06:25:00,622 - INFO - cleaning product name: смартфон vivo y31 4/64 gb black
+2025-01-20 06:25:00,622 - INFO - cleaned product name: Vivo Y31 4/64 Gb
+2025-01-20 06:25:00,622 - INFO - processing JS object name: Vivo Y31 4/64 Gb with element number 23
+2025-01-20 06:25:00,622 - INFO - cleaning product name: смартфон vivo y31 4/64 gb blue
+2025-01-20 06:25:00,622 - INFO - cleaned product name: Vivo Y31 4/64 Gb
+2025-01-20 06:25:00,622 - INFO - processing JS object name: Vivo Y31 4/64 Gb with element number 24
+2025-01-20 06:25:00,622 - INFO - JS
+2025-01-20 06:25:02,070 - INFO - Processing page 12 of 30
+2025-01-20 06:25:02,280 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:02,282 - INFO - cleaning product name: смартфон tecno spark 5 air 2/32 gb
+2025-01-20 06:25:02,282 - INFO - cleaned product name: Tecno Spark 5 Air 2/32 Gb
+2025-01-20 06:25:02,282 - INFO - processing JS object name: Tecno Spark 5 Air 2/32 Gb with element number 1
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон tecno camon 15 air 3/64 gb blue
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Tecno Camon 15 Air 3/64 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Tecno Camon 15 Air 3/64 Gb with element number 2
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон samsung galaxy z fold 3 8/256 gb silver
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Samsung Galaxy Z Fold 3 256 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Samsung Galaxy Z Fold 3 256 Gb with element number 3
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон samsung galaxy a21s 3/32 gb white
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Samsung Galaxy A21s 32 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Samsung Galaxy A21s 32 Gb with element number 4
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон xiaomi poco m3 pro 4/64 gb black
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Xiaomi Poco M3 Pro 4/64 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Xiaomi Poco M3 Pro 4/64 Gb with element number 5
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон xiaomi 13t pro 12/256 meadow green
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Xiaomi 13t Pro 12/256 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Xiaomi 13t Pro 12/256 Gb with element number 6
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон xiaomi 13t 8/256 black
+2025-01-20 06:25:02,283 - INFO - cleaned product name: Xiaomi 13t 8/256 Gb
+2025-01-20 06:25:02,283 - INFO - processing JS object name: Xiaomi 13t 8/256 Gb with element number 7
+2025-01-20 06:25:02,283 - INFO - cleaning product name: смартфон xiaomi redmi 12c 4/128 graphite gray
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Xiaomi Redmi 12c 4/128 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Xiaomi Redmi 12c 4/128 Gb with element number 8
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон xiaomi 13 lite 8/128 gb blue
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Xiaomi 13 Lite 8/128 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Xiaomi 13 Lite 8/128 Gb with element number 9
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон samsung galaxy a12 3/32 gb red
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Samsung Galaxy A12 32 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Samsung Galaxy A12 32 Gb with element number 10
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон samsung galaxy a12 3/32 gb blue
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Samsung Galaxy A12 32 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Samsung Galaxy A12 32 Gb with element number 11
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон artel u5 2/16 gb gold
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Artel U5 2/16 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Artel U5 2/16 Gb with element number 12
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон artel u4 2/16 gb space gray
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Artel U4 2/16 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Artel U4 2/16 Gb with element number 13
+2025-01-20 06:25:02,284 - INFO - cleaning product name: смартфон artel u4 2/16 gb red
+2025-01-20 06:25:02,284 - INFO - cleaned product name: Artel U4 2/16 Gb
+2025-01-20 06:25:02,284 - INFO - processing JS object name: Artel U4 2/16 Gb with element number 14
+2025-01-20 06:25:02,285 - INFO - cleaning product name: смартфон artel u4 2/16 gb gold
+2025-01-20 06:25:02,285 - INFO - cleaned product name: Artel U4 2/16 Gb
+2025-01-20 06:25:02,285 - INFO - processing JS object name: Artel U4 2/16 Gb with element number 15
+2025-01-20 06:25:02,285 - INFO - cleaning product name: смартфон artel u3 2/16 gb blue
+2025-01-20 06:25:02,285 - INFO - cleaned product name: Artel U3 2/16 Gb
+2025-01-20 06:25:02,285 - INFO - processing JS object name: Artel U3 2/16 Gb with element number 16
+2025-01-20 06:25:02,285 - INFO - cleaning product name: смартфон artel u3 2/16 gb gold 
+2025-01-20 06:25:02,285 - INFO - cleaned product name: Artel U3 2/16 Gb
+2025-01-20 06:25:02,286 - INFO - processing JS object name: Artel U3 2/16 Gb with element number 17
+2025-01-20 06:25:02,286 - INFO - cleaning product name: смартфон artel p5 space gray
+2025-01-20 06:25:02,286 - INFO - cleaned product name: Artel P5 Gb
+2025-01-20 06:25:02,286 - INFO - processing JS object name: Artel P5 Gb with element number 18
+2025-01-20 06:25:02,287 - INFO - cleaning product name: смартфон samsung galaxy a02s 3/32 gb blue
+2025-01-20 06:25:02,288 - INFO - cleaned product name: Samsung Galaxy A02s 32 Gb
+2025-01-20 06:25:02,288 - INFO - processing JS object name: Samsung Galaxy A02s 32 Gb with element number 19
+2025-01-20 06:25:02,288 - INFO - cleaning product name: смартфон samsung galaxy a02s 3/32 gb white
+2025-01-20 06:25:02,288 - INFO - cleaned product name: Samsung Galaxy A02s 32 Gb
+2025-01-20 06:25:02,288 - INFO - processing JS object name: Samsung Galaxy A02s 32 Gb with element number 20
+2025-01-20 06:25:02,289 - INFO - cleaning product name: смартфон vivo x50 128 гб black
+2025-01-20 06:25:02,289 - INFO - cleaned product name: Vivo X50 128 Gb
+2025-01-20 06:25:02,289 - INFO - processing JS object name: Vivo X50 128 Gb with element number 21
+2025-01-20 06:25:02,289 - INFO - cleaning product name: смартфон oppo a54 4/64gb blue
+2025-01-20 06:25:02,289 - INFO - cleaned product name: Oppo A54 4/64 Gb
+2025-01-20 06:25:02,289 - INFO - processing JS object name: Oppo A54 4/64 Gb with element number 22
+2025-01-20 06:25:02,289 - INFO - cleaning product name: смартфон xiaomi redmi 5 plus 3/32 gb black
+2025-01-20 06:25:02,289 - INFO - cleaned product name: Xiaomi Redmi 5 Plus 3/32 Gb
+2025-01-20 06:25:02,289 - INFO - processing JS object name: Xiaomi Redmi 5 Plus 3/32 Gb with element number 23
+2025-01-20 06:25:02,289 - INFO - cleaning product name: смартфон xiaomi mi 6x 4/64 gb black
+2025-01-20 06:25:02,289 - INFO - cleaned product name: Xiaomi Mi 6x 4/64 Gb
+2025-01-20 06:25:02,290 - INFO - processing JS object name: Xiaomi Mi 6x 4/64 Gb with element number 24
+2025-01-20 06:25:02,291 - INFO - JS
+2025-01-20 06:25:02,732 - INFO - Processing page 13 of 30
+2025-01-20 06:25:02,912 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:02,913 - INFO - cleaning product name: смартфон xiaomi poco x3 pro 8/256gb blue
+2025-01-20 06:25:02,913 - INFO - cleaned product name: Xiaomi Poco X3 Pro 8/256 Gb
+2025-01-20 06:25:02,913 - INFO - processing JS object name: Xiaomi Poco X3 Pro 8/256 Gb with element number 1
+2025-01-20 06:25:02,913 - INFO - cleaning product name: смартфон vivo y31 4/128 gb black
+2025-01-20 06:25:02,913 - INFO - cleaned product name: Vivo Y31 4/128 Gb
+2025-01-20 06:25:02,913 - INFO - processing JS object name: Vivo Y31 4/128 Gb with element number 2
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон samsung galaxy a12 4/64 gb blue
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Samsung Galaxy A12 64 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Samsung Galaxy A12 64 Gb with element number 3
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон samsung galaxy a32 4/64 gb black
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Samsung Galaxy A32 64 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Samsung Galaxy A32 64 Gb with element number 4
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон samsung galaxy a52 4/128 gb black
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Samsung Galaxy A52 128 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Samsung Galaxy A52 128 Gb with element number 5
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон samsung galaxy a02 2/32 gb black
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Samsung Galaxy A02 32 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Samsung Galaxy A02 32 Gb with element number 6
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон vivo y31 4/128 gb blue
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Vivo Y31 4/128 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Vivo Y31 4/128 Gb with element number 7
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон xiaomi redmi note 10 4/64 gb gray
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Xiaomi Redmi Note 10 4/64 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Xiaomi Redmi Note 10 4/64 Gb with element number 8
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон artel t10 6/128 gb black
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Artel T10 6/128 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Artel T10 6/128 Gb with element number 9
+2025-01-20 06:25:02,914 - INFO - cleaning product name: смартфон vivo y1s 2/32 gb black
+2025-01-20 06:25:02,914 - INFO - cleaned product name: Vivo Y1s 2/32 Gb
+2025-01-20 06:25:02,914 - INFO - processing JS object name: Vivo Y1s 2/32 Gb with element number 10
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон vivo y1s 2/32 gb blue
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Vivo Y1s 2/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Vivo Y1s 2/32 Gb with element number 11
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон vivo y20 4/64 gb black
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Vivo Y20 4/64 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Vivo Y20 4/64 Gb with element number 12
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 5730l magic c 2/16 gb blue
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 5730l Magic C 2/16 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 5730l Magic C 2/16 Gb with element number 13
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 5730l magic c 2/16 gb red
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 5730l Magic C 2/16 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 5730l Magic C 2/16 Gb with element number 14
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 5731l magic s 3/32 gb violet
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 5731l Magic S 3/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 5731l Magic S 3/32 Gb with element number 15
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 5731l magic s 3/32 gb blue
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 5731l Magic S 3/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 5731l Magic S 3/32 Gb with element number 16
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 5732l aurora se 3/32 gb blue
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 5732l Aurora Se 3/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 5732l Aurora Se 3/32 Gb with element number 17
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 6040l magic 2/32 gb blue
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 6040l Magic 2/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 6040l Magic 2/32 Gb with element number 18
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон bq 6042l magic e 3/32 gb black
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Bq 6042l Magic E 3/32 Gb
+2025-01-20 06:25:02,915 - INFO - processing JS object name: Bq 6042l Magic E 3/32 Gb with element number 19
+2025-01-20 06:25:02,915 - INFO - cleaning product name: смартфон samsung galaxy s21+ 8/128 gb phantom black
+2025-01-20 06:25:02,915 - INFO - cleaned product name: Samsung Galaxy S21+ 128 Gb
+2025-01-20 06:25:02,916 - INFO - processing JS object name: Samsung Galaxy S21+ 128 Gb with element number 20
+2025-01-20 06:25:02,916 - INFO - cleaning product name: смартфон samsung galaxy s21+ 8/128 gb phantom silver
+2025-01-20 06:25:02,916 - INFO - cleaned product name: Samsung Galaxy S21+ 128 Gb
+2025-01-20 06:25:02,916 - INFO - processing JS object name: Samsung Galaxy S21+ 128 Gb with element number 21
+2025-01-20 06:25:02,916 - INFO - cleaning product name: смартфон samsung galaxy s21+ 8/128 gb phantom violet
+2025-01-20 06:25:02,916 - INFO - cleaned product name: Samsung Galaxy S21+ 128 Gb
+2025-01-20 06:25:02,916 - INFO - processing JS object name: Samsung Galaxy S21+ 128 Gb with element number 22
+2025-01-20 06:25:02,916 - INFO - cleaning product name: смартфон xiaomi poco x3 6/64 gb shadow gray
+2025-01-20 06:25:02,916 - INFO - cleaned product name: Xiaomi Poco X3 6/64 Gb
+2025-01-20 06:25:02,916 - INFO - processing JS object name: Xiaomi Poco X3 6/64 Gb with element number 23
+2025-01-20 06:25:02,916 - INFO - cleaning product name: смартфон samsung galaxy a21s 32 gb black
+2025-01-20 06:25:02,916 - INFO - cleaned product name: Samsung Galaxy A21s 32 Gb
+2025-01-20 06:25:02,916 - INFO - processing JS object name: Samsung Galaxy A21s 32 Gb with element number 24
+2025-01-20 06:25:02,916 - INFO - JS
+2025-01-20 06:25:04,438 - INFO - Processing page 14 of 30
+2025-01-20 06:25:04,614 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:04,616 - INFO - cleaning product name: смартфон xiaomi redmi 10 2022 4/64 gb white
+2025-01-20 06:25:04,616 - INFO - cleaned product name: Xiaomi Redmi 10 2022 4/64 Gb
+2025-01-20 06:25:04,616 - INFO - processing JS object name: Xiaomi Redmi 10 2022 4/64 Gb with element number 1
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон huawei nova 10 8/128 gb shining black
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Huawei Nova 10 8/128 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Huawei Nova 10 8/128 Gb with element number 2
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон samsung galaxy s23 8/128 gb lavender
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Samsung Galaxy S23 128 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Samsung Galaxy S23 128 Gb with element number 3
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон samsung galaxy s23 8/128 gb cream
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Samsung Galaxy S23 128 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Samsung Galaxy S23 128 Gb with element number 4
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон realme c55 6/128 sunshower
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Realme C55 6/128 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Realme C55 6/128 Gb with element number 5
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон realme c55 8/256 sunshower
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Realme C55 8/256 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Realme C55 8/256 Gb with element number 6
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон realme c55 8/256 rainy night
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Realme C55 8/256 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Realme C55 8/256 Gb with element number 7
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон samsung galaxy z fold 4 8/256 gb green
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Samsung Galaxy Z Fold 4 256 Gb
+2025-01-20 06:25:04,617 - INFO - processing JS object name: Samsung Galaxy Z Fold 4 256 Gb with element number 8
+2025-01-20 06:25:04,617 - INFO - cleaning product name: смартфон samsung galaxy s23 8/128 gb green
+2025-01-20 06:25:04,617 - INFO - cleaned product name: Samsung Galaxy S23 128 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy S23 128 Gb with element number 9
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон samsung galaxy a04 64gb black
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Samsung Galaxy A04 64 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy A04 64 Gb with element number 10
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон samsung galaxy a14 64gb silver
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Samsung Galaxy A14 64 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy A14 64 Gb with element number 11
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон samsung galaxy a14 128gb silver
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Samsung Galaxy A14 128 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy A14 128 Gb with element number 12
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон samsung galaxy a04 64gb copper
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Samsung Galaxy A04 64 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy A04 64 Gb with element number 13
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон samsung galaxy a04e 32gb copper
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Samsung Galaxy A04e 32 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Samsung Galaxy A04e 32 Gb with element number 14
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон vivo y17s 6/128 forest green
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Vivo Y17s 6/128 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Vivo Y17s 6/128 Gb with element number 15
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон honor 90 lite 5g 8/256gb blue
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Honor 90 Lite 8/256 Gb
+2025-01-20 06:25:04,618 - INFO - processing JS object name: Honor 90 Lite 8/256 Gb with element number 16
+2025-01-20 06:25:04,618 - INFO - cleaning product name: смартфон honor x9b 12/256 gb midnight black
+2025-01-20 06:25:04,618 - INFO - cleaned product name: Honor X9b 12/256 Gb
+2025-01-20 06:25:04,619 - INFO - processing JS object name: Honor X9b 12/256 Gb with element number 17
+2025-01-20 06:25:04,619 - INFO - cleaning product name: смартфон honor 90 5g 8/256 midnight black
+2025-01-20 06:25:04,619 - INFO - cleaned product name: Honor 90 8/256 Gb
+2025-01-20 06:25:04,619 - INFO - processing JS object name: Honor 90 8/256 Gb with element number 18
+2025-01-20 06:25:04,619 - INFO - cleaning product name: смартфон honor 90 5g 8/256gb peacock blue
+2025-01-20 06:25:04,619 - INFO - cleaned product name: Honor 90 8/256 Gb
+2025-01-20 06:25:04,619 - INFO - processing JS object name: Honor 90 8/256 Gb with element number 19
+2025-01-20 06:25:04,619 - INFO - cleaning product name: смартфон samsung galaxy s23 8/256 gb lavender
+2025-01-20 06:25:04,619 - INFO - cleaned product name: Samsung Galaxy S23 256 Gb
+2025-01-20 06:25:04,619 - INFO - processing JS object name: Samsung Galaxy S23 256 Gb with element number 20
+2025-01-20 06:25:04,620 - INFO - cleaning product name: смартфон samsung galaxy s23 8/256 gb cream
+2025-01-20 06:25:04,620 - INFO - cleaned product name: Samsung Galaxy S23 256 Gb
+2025-01-20 06:25:04,620 - INFO - processing JS object name: Samsung Galaxy S23 256 Gb with element number 21
+2025-01-20 06:25:04,620 - INFO - cleaning product name: смартфон realme 12 4g 8/256gb green
+2025-01-20 06:25:04,620 - INFO - cleaned product name: Realme 12 4g 8/256 Gb
+2025-01-20 06:25:04,620 - INFO - processing JS object name: Realme 12 4g 8/256 Gb with element number 22
+2025-01-20 06:25:04,620 - INFO - cleaning product name: смартфон realme c61 8/256gb gold
+2025-01-20 06:25:04,620 - INFO - cleaned product name: Realme C61 8/256 Gb
+2025-01-20 06:25:04,620 - INFO - processing JS object name: Realme C61 8/256 Gb with element number 23
+2025-01-20 06:25:04,620 - INFO - cleaning product name: смартфон honor x6b 4/128gb midnight black
+2025-01-20 06:25:04,620 - INFO - cleaned product name: Honor X6b 4/128 Gb
+2025-01-20 06:25:04,620 - INFO - processing JS object name: Honor X6b 4/128 Gb with element number 24
+2025-01-20 06:25:04,621 - INFO - JS
+2025-01-20 06:25:07,409 - INFO - Processing page 15 of 30
+2025-01-20 06:25:07,618 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:07,620 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium black
+2025-01-20 06:25:07,620 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:07,620 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 1
+2025-01-20 06:25:07,621 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium purple
+2025-01-20 06:25:07,621 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:07,621 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 2
+2025-01-20 06:25:07,621 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium blue
+2025-01-20 06:25:07,621 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:07,621 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 3
+2025-01-20 06:25:07,621 - INFO - JS
+2025-01-20 06:25:08,023 - INFO - Processing page 16 of 30
+2025-01-20 06:25:08,246 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:08,248 - INFO - cleaning product name: смартфон samsung galaxy a04e 32gb copper
+2025-01-20 06:25:08,248 - INFO - cleaned product name: Samsung Galaxy A04e 32 Gb
+2025-01-20 06:25:08,248 - INFO - processing JS object name: Samsung Galaxy A04e 32 Gb with element number 1
+2025-01-20 06:25:08,249 - INFO - cleaning product name: смартфон vivo y17s 6/128 forest green
+2025-01-20 06:25:08,249 - INFO - cleaned product name: Vivo Y17s 6/128 Gb
+2025-01-20 06:25:08,249 - INFO - processing JS object name: Vivo Y17s 6/128 Gb with element number 2
+2025-01-20 06:25:08,249 - INFO - cleaning product name: смартфон honor 90 lite 5g 8/256gb blue
+2025-01-20 06:25:08,249 - INFO - cleaned product name: Honor 90 Lite 8/256 Gb
+2025-01-20 06:25:08,250 - INFO - processing JS object name: Honor 90 Lite 8/256 Gb with element number 3
+2025-01-20 06:25:08,250 - INFO - cleaning product name: смартфон honor 90 lite 5g 8/256gb black
+2025-01-20 06:25:08,250 - INFO - cleaned product name: Honor 90 Lite 8/256 Gb
+2025-01-20 06:25:08,250 - INFO - processing JS object name: Honor 90 Lite 8/256 Gb with element number 4
+2025-01-20 06:25:08,251 - INFO - cleaning product name: смартфон honor x9b 12/256 gb midnight black
+2025-01-20 06:25:08,251 - INFO - cleaned product name: Honor X9b 12/256 Gb
+2025-01-20 06:25:08,251 - INFO - processing JS object name: Honor X9b 12/256 Gb with element number 5
+2025-01-20 06:25:08,251 - INFO - cleaning product name: смартфон honor 90 5g 8/256 midnight black
+2025-01-20 06:25:08,251 - INFO - cleaned product name: Honor 90 8/256 Gb
+2025-01-20 06:25:08,251 - INFO - processing JS object name: Honor 90 8/256 Gb with element number 6
+2025-01-20 06:25:08,252 - INFO - cleaning product name: смартфон honor 90 5g 8/256gb peacock blue
+2025-01-20 06:25:08,252 - INFO - cleaned product name: Honor 90 8/256 Gb
+2025-01-20 06:25:08,252 - INFO - processing JS object name: Honor 90 8/256 Gb with element number 7
+2025-01-20 06:25:08,252 - INFO - cleaning product name: смартфон samsung galaxy s23 plus 8/512 gb cream
+2025-01-20 06:25:08,252 - INFO - cleaned product name: Samsung Galaxy S23 Plus 512 Gb
+2025-01-20 06:25:08,252 - INFO - processing JS object name: Samsung Galaxy S23 Plus 512 Gb with element number 8
+2025-01-20 06:25:08,252 - INFO - cleaning product name: смартфон samsung galaxy s23 plus 8/256 gb lavender
+2025-01-20 06:25:08,252 - INFO - cleaned product name: Samsung Galaxy S23 Plus 256 Gb
+2025-01-20 06:25:08,252 - INFO - processing JS object name: Samsung Galaxy S23 Plus 256 Gb with element number 9
+2025-01-20 06:25:08,252 - INFO - cleaning product name: смартфон samsung galaxy s23 plus 8/256 gb black
+2025-01-20 06:25:08,252 - INFO - cleaned product name: Samsung Galaxy S23 Plus 256 Gb
+2025-01-20 06:25:08,252 - INFO - processing JS object name: Samsung Galaxy S23 Plus 256 Gb with element number 10
+2025-01-20 06:25:08,254 - INFO - cleaning product name: смартфон samsung galaxy s23 8/256 gb black
+2025-01-20 06:25:08,254 - INFO - cleaned product name: Samsung Galaxy S23 256 Gb
+2025-01-20 06:25:08,254 - INFO - processing JS object name: Samsung Galaxy S23 256 Gb with element number 11
+2025-01-20 06:25:08,254 - INFO - cleaning product name: смартфон samsung galaxy s23 8/256 gb lavender
+2025-01-20 06:25:08,254 - INFO - cleaned product name: Samsung Galaxy S23 256 Gb
+2025-01-20 06:25:08,255 - INFO - processing JS object name: Samsung Galaxy S23 256 Gb with element number 12
+2025-01-20 06:25:08,255 - INFO - cleaning product name: смартфон samsung galaxy s23 8/256 gb cream
+2025-01-20 06:25:08,255 - INFO - cleaned product name: Samsung Galaxy S23 256 Gb
+2025-01-20 06:25:08,255 - INFO - processing JS object name: Samsung Galaxy S23 256 Gb with element number 13
+2025-01-20 06:25:08,255 - INFO - cleaning product name: смартфон oppo a77s 128gb sunset orange
+2025-01-20 06:25:08,255 - INFO - cleaned product name: Oppo A77s 128 Gb
+2025-01-20 06:25:08,255 - INFO - processing JS object name: Oppo A77s 128 Gb with element number 14
+2025-01-20 06:25:08,256 - INFO - cleaning product name: смартфон oppo a77s 128gb starry black
+2025-01-20 06:25:08,256 - INFO - cleaned product name: Oppo A77s 128 Gb
+2025-01-20 06:25:08,256 - INFO - processing JS object name: Oppo A77s 128 Gb with element number 15
+2025-01-20 06:25:08,256 - INFO - cleaning product name: смартфон honor x8a (6/128) blue
+2025-01-20 06:25:08,256 - INFO - cleaned product name: Honor X8a 6/128 Gb
+2025-01-20 06:25:08,256 - INFO - processing JS object name: Honor X8a 6/128 Gb with element number 16
+2025-01-20 06:25:08,256 - INFO - cleaning product name: смартфон honor x8a (6/128) silver
+2025-01-20 06:25:08,256 - INFO - cleaned product name: Honor X8a 6/128 Gb
+2025-01-20 06:25:08,256 - INFO - processing JS object name: Honor X8a 6/128 Gb with element number 17
+2025-01-20 06:25:08,256 - INFO - cleaning product name: смартфон vivo y02 2/32gb orchid blue 
+2025-01-20 06:25:08,256 - INFO - cleaned product name: Vivo Y02 2/32 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Vivo Y02 2/32 Gb with element number 18
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон samsung galaxy a04 sm-a045f 3/32gb copper
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Samsung Galaxy A04 32 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Samsung Galaxy A04 32 Gb with element number 19
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон samsung sm-a047f a04s 64gb copper
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Samsung Galaxy A04s 64 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Samsung Galaxy A04s 64 Gb with element number 20
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон honor x7a 4/128gb titanium silver
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Honor X7a 4/128 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Honor X7a 4/128 Gb with element number 21
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон oppo reno 8t 8/128gb black
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Oppo Reno 8t 8/128 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Oppo Reno 8t 8/128 Gb with element number 22
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон oppo reno 8t 8/128gb orange
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Oppo Reno 8t 8/128 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Oppo Reno 8t 8/128 Gb with element number 23
+2025-01-20 06:25:08,257 - INFO - cleaning product name: смартфон samsung galaxy a03 3/32 gb red
+2025-01-20 06:25:08,257 - INFO - cleaned product name: Samsung Galaxy A03 32 Gb
+2025-01-20 06:25:08,257 - INFO - processing JS object name: Samsung Galaxy A03 32 Gb with element number 24
+2025-01-20 06:25:08,258 - INFO - JS
+2025-01-20 06:25:09,043 - INFO - Processing page 17 of 30
+2025-01-20 06:25:09,229 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:09,231 - INFO - cleaning product name: смартфон samsung galaxy a34 8/256 gb violet
+2025-01-20 06:25:09,231 - INFO - cleaned product name: Samsung Galaxy A34 256 Gb
+2025-01-20 06:25:09,231 - INFO - processing JS object name: Samsung Galaxy A34 256 Gb with element number 1
+2025-01-20 06:25:09,231 - INFO - cleaning product name: смартфон oppo a57s 4/128 gb starry black
+2025-01-20 06:25:09,231 - INFO - cleaned product name: Oppo A57s 4/128 Gb
+2025-01-20 06:25:09,231 - INFO - processing JS object name: Oppo A57s 4/128 Gb with element number 2
+2025-01-20 06:25:09,231 - INFO - cleaning product name: смартфон oppo reno 8t 5g 8/256gb black
+2025-01-20 06:25:09,231 - INFO - cleaned product name: Oppo Reno 8t 8/256 Gb
+2025-01-20 06:25:09,231 - INFO - processing JS object name: Oppo Reno 8t 8/256 Gb with element number 3
+2025-01-20 06:25:09,231 - INFO - cleaning product name: смартфон oppo reno 8t 5g 8/256gb gold
+2025-01-20 06:25:09,232 - INFO - cleaned product name: Oppo Reno 8t 8/256 Gb
+2025-01-20 06:25:09,232 - INFO - processing JS object name: Oppo Reno 8t 8/256 Gb with element number 4
+2025-01-20 06:25:09,232 - INFO - cleaning product name: смартфон vivo v27e 8/256gb black
+2025-01-20 06:25:09,232 - INFO - cleaned product name: Vivo V27e 8/256 Gb
+2025-01-20 06:25:09,232 - INFO - processing JS object name: Vivo V27e 8/256 Gb with element number 5
+2025-01-20 06:25:09,232 - INFO - cleaning product name: смартфон xiaomi redmi 12c 3/64gb blue
+2025-01-20 06:25:09,232 - INFO - cleaned product name: Xiaomi Redmi 12c 3/64 Gb
+2025-01-20 06:25:09,232 - INFO - processing JS object name: Xiaomi Redmi 12c 3/64 Gb with element number 6
+2025-01-20 06:25:09,233 - INFO - cleaning product name: смартфон xiaomi redmi 12c 3/64gb green
+2025-01-20 06:25:09,233 - INFO - cleaned product name: Xiaomi Redmi 12c 3/64 Gb
+2025-01-20 06:25:09,233 - INFO - processing JS object name: Xiaomi Redmi 12c 3/64 Gb with element number 7
+2025-01-20 06:25:09,233 - INFO - cleaning product name: смартфон realme c30s 4/64gb stripe black
+2025-01-20 06:25:09,233 - INFO - cleaned product name: Realme C30s 4/64 Gb
+2025-01-20 06:25:09,233 - INFO - processing JS object name: Realme C30s 4/64 Gb with element number 8
+2025-01-20 06:25:09,233 - INFO - cleaning product name: смартфон realme c30s 4/64gb stripe blue
+2025-01-20 06:25:09,233 - INFO - cleaned product name: Realme C30s 4/64 Gb
+2025-01-20 06:25:09,233 - INFO - processing JS object name: Realme C30s 4/64 Gb with element number 9
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон realme c33 4/64gb night sea
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Realme C33 4/64 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Realme C33 4/64 Gb with element number 10
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон realme 10 4g 8/128gb clash white
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Realme 10 4g 8/128 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Realme 10 4g 8/128 Gb with element number 11
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон realme 10 4g 8/128gb rush black
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Realme 10 4g 8/128 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Realme 10 4g 8/128 Gb with element number 12
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон realme gt neo 3t 8/256gb dragon ball
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Realme Gt Neo 3t 8/256 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Realme Gt Neo 3t 8/256 Gb with element number 13
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон xiaomi redmi note 12 6/128 white
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Xiaomi Redmi Note 12 6/128 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Xiaomi Redmi Note 12 6/128 Gb with element number 14
+2025-01-20 06:25:09,234 - INFO - cleaning product name: смартфон huawei nova 11i 8/128gb green
+2025-01-20 06:25:09,234 - INFO - cleaned product name: Huawei Nova 11i 8/128 Gb
+2025-01-20 06:25:09,234 - INFO - processing JS object name: Huawei Nova 11i 8/128 Gb with element number 15
+2025-01-20 06:25:09,235 - INFO - cleaning product name: смартфон huawei nova 11i 8/128gb black
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Huawei Nova 11i 8/128 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Huawei Nova 11i 8/128 Gb with element number 16
+2025-01-20 06:25:09,235 - INFO - cleaning product name: смартфон xiaomi redmi note 12 pro 6/128gb blue
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Xiaomi Redmi Note 12 Pro 6/128 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Xiaomi Redmi Note 12 Pro 6/128 Gb with element number 17
+2025-01-20 06:25:09,235 - INFO - cleaning product name: cмартфон huawei p60 8/256 black
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Huawei P60 8/256 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Huawei P60 8/256 Gb with element number 18
+2025-01-20 06:25:09,235 - INFO - cleaning product name: cмартфон huawei p60 8/256 green
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Huawei P60 8/256 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Huawei P60 8/256 Gb with element number 19
+2025-01-20 06:25:09,235 - INFO - cleaning product name: cмартфон huawei p60 pro 8/256 white
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Huawei P60 Pro 8/256 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Huawei P60 Pro 8/256 Gb with element number 20
+2025-01-20 06:25:09,235 - INFO - cleaning product name: смартфон vivo y36 8/256 gb black
+2025-01-20 06:25:09,235 - INFO - cleaned product name: Vivo Y36 8/256 Gb
+2025-01-20 06:25:09,235 - INFO - processing JS object name: Vivo Y36 8/256 Gb with element number 21
+2025-01-20 06:25:09,235 - INFO - cleaning product name: смартфон vivo y36 8/256 gb gold
+2025-01-20 06:25:09,236 - INFO - cleaned product name: Vivo Y36 8/256 Gb
+2025-01-20 06:25:09,236 - INFO - processing JS object name: Vivo Y36 8/256 Gb with element number 22
+2025-01-20 06:25:09,236 - INFO - cleaning product name: смартфон vivo y27 6/128 sea blue 
+2025-01-20 06:25:09,236 - INFO - cleaned product name: Vivo Y27 6/128 Gb
+2025-01-20 06:25:09,236 - INFO - processing JS object name: Vivo Y27 6/128 Gb with element number 23
+2025-01-20 06:25:09,236 - INFO - cleaning product name: смартфон realme 11 pro 5g 8/256gb beige
+2025-01-20 06:25:09,236 - INFO - cleaned product name: Realme 11 Pro 8/256 Gb
+2025-01-20 06:25:09,236 - INFO - processing JS object name: Realme 11 Pro 8/256 Gb with element number 24
+2025-01-20 06:25:09,236 - INFO - JS
+2025-01-20 06:25:09,647 - INFO - Processing page 18 of 30
+2025-01-20 06:25:09,823 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:09,825 - INFO - cleaning product name: смартфон realme 11 pro 5g 8/256gb black
+2025-01-20 06:25:09,825 - INFO - cleaned product name: Realme 11 Pro 8/256 Gb
+2025-01-20 06:25:09,825 - INFO - processing JS object name: Realme 11 Pro 8/256 Gb with element number 1
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон samsung galaxy flip 5 256 gb cream
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Samsung Galaxy Flip 5 256 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Samsung Galaxy Flip 5 256 Gb with element number 2
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi mi 8 lite 6/64 black
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Mi 8 Lite 6/64 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Mi 8 Lite 6/64 Gb with element number 3
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi redmi 10c 4/128 green
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Redmi 10c 4/128 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Redmi 10c 4/128 Gb with element number 4
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi redmi 9c 3/64 orange
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Redmi 9c 3/64 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Redmi 9c 3/64 Gb with element number 5
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi redmi note 10 china 8/128 blue 
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Redmi Note 10 8/128 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Redmi Note 10 8/128 Gb with element number 6
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi redmi note 11s 8/128 gray
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Redmi Note 11s 8/128 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Redmi Note 11s 8/128 Gb with element number 7
+2025-01-20 06:25:09,826 - INFO - cleaning product name: смартфон xiaomi redmi note 9 4/128 black
+2025-01-20 06:25:09,826 - INFO - cleaned product name: Xiaomi Redmi Note 9 4/128 Gb
+2025-01-20 06:25:09,826 - INFO - processing JS object name: Xiaomi Redmi Note 9 4/128 Gb with element number 8
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон huawei nova y91 8/256 silver
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Huawei Nova Y91 8/256 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Huawei Nova Y91 8/256 Gb with element number 9
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон oppo a78 8/256 aqua green
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Oppo A78 8/256 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Oppo A78 8/256 Gb with element number 10
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон oppo a78 8/256 mist black
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Oppo A78 8/256 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Oppo A78 8/256 Gb with element number 11
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон realme 11 pro 12/512gb 5g green
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Realme 11 Pro 12/512 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Realme 11 Pro 12/512 Gb with element number 12
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон realme c33 4/64 rmx3624 gold
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Realme C33 4/64 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Realme C33 4/64 Gb with element number 13
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон samsung galaxy a24 128gb dark red
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Samsung Galaxy A24 128 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Samsung Galaxy A24 128 Gb with element number 14
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон samsung galaxy z flip 5 256gb graphite
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Samsung Galaxy Z Flip 5 256 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Samsung Galaxy Z Flip 5 256 Gb with element number 15
+2025-01-20 06:25:09,827 - INFO - cleaning product name: смартфон samsung galaxy z flip 5 256gb lavender
+2025-01-20 06:25:09,827 - INFO - cleaned product name: Samsung Galaxy Z Flip 5 256 Gb
+2025-01-20 06:25:09,827 - INFO - processing JS object name: Samsung Galaxy Z Flip 5 256 Gb with element number 16
+2025-01-20 06:25:09,828 - INFO - cleaning product name: смартфон samsung galaxy z flip 5 256gb mint
+2025-01-20 06:25:09,828 - INFO - cleaned product name: Samsung Galaxy Z Flip 5 256 Gb
+2025-01-20 06:25:09,828 - INFO - processing JS object name: Samsung Galaxy Z Flip 5 256 Gb with element number 17
+2025-01-20 06:25:09,828 - INFO - cleaning product name: смартфон samsung galaxy z fold 5 256gb cream
+2025-01-20 06:25:09,828 - INFO - cleaned product name: Samsung Galaxy Z Fold 5 256 Gb
+2025-01-20 06:25:09,828 - INFO - processing JS object name: Samsung Galaxy Z Fold 5 256 Gb with element number 18
+2025-01-20 06:25:09,828 - INFO - cleaning product name: смартфон samsung galaxy z fold 5 256gb icy blue
+2025-01-20 06:25:09,828 - INFO - cleaned product name: Samsung Galaxy Z Fold 5 256 Gb
+2025-01-20 06:25:09,828 - INFO - processing JS object name: Samsung Galaxy Z Fold 5 256 Gb with element number 19
+2025-01-20 06:25:09,828 - INFO - cleaning product name: смартфон samsung galaxy z fold 5 256gb phantom black
+2025-01-20 06:25:09,829 - INFO - cleaned product name: Samsung Galaxy Z Fold 5 256 Gb
+2025-01-20 06:25:09,829 - INFO - processing JS object name: Samsung Galaxy Z Fold 5 256 Gb with element number 20
+2025-01-20 06:25:09,829 - INFO - cleaning product name: смартфон vivo y20 4/64 blue
+2025-01-20 06:25:09,829 - INFO - cleaned product name: Vivo Y20 4/64 Gb
+2025-01-20 06:25:09,829 - INFO - processing JS object name: Vivo Y20 4/64 Gb with element number 21
+2025-01-20 06:25:09,829 - INFO - cleaning product name: смартфон xiaomi 13 8/256 black
+2025-01-20 06:25:09,829 - INFO - cleaned product name: Xiaomi 13 8/256 Gb
+2025-01-20 06:25:09,829 - INFO - processing JS object name: Xiaomi 13 8/256 Gb with element number 22
+2025-01-20 06:25:09,829 - INFO - cleaning product name: смартфон xiaomi 13 8/256 white
+2025-01-20 06:25:09,829 - INFO - cleaned product name: Xiaomi 13 8/256 Gb
+2025-01-20 06:25:09,829 - INFO - processing JS object name: Xiaomi 13 8/256 Gb with element number 23
+2025-01-20 06:25:09,829 - INFO - cleaning product name: смартфон honor 90 12/512 green
+2025-01-20 06:25:09,829 - INFO - cleaned product name: Honor 90 12/512 Gb
+2025-01-20 06:25:09,830 - INFO - processing JS object name: Honor 90 12/512 Gb with element number 24
+2025-01-20 06:25:09,830 - INFO - JS
+2025-01-20 06:25:10,447 - INFO - Processing page 19 of 30
+2025-01-20 06:25:10,632 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:10,663 - INFO - cleaning product name: смартфон honor 90 lite 8/256 blue
+2025-01-20 06:25:10,663 - INFO - cleaned product name: Honor 90 Lite 8/256 Gb
+2025-01-20 06:25:10,663 - INFO - processing JS object name: Honor 90 Lite 8/256 Gb with element number 1
+2025-01-20 06:25:10,663 - INFO - cleaning product name: смартфон honor 90 lite 8/256 silver
+2025-01-20 06:25:10,663 - INFO - cleaned product name: Honor 90 Lite 8/256 Gb
+2025-01-20 06:25:10,663 - INFO - processing JS object name: Honor 90 Lite 8/256 Gb with element number 2
+2025-01-20 06:25:10,663 - INFO - cleaning product name: смартфон honor x6a 4/128 black
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Honor X6a 4/128 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Honor X6a 4/128 Gb with element number 3
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон honor  x6a 6/128 black
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Honor X6a 6/128 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Honor X6a 6/128 Gb with element number 4
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон honor x6a 6/128 blue
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Honor X6a 6/128 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Honor X6a 6/128 Gb with element number 5
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон honor x7a plus 6/128 ocean blue
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Honor X7a Plus 6/128 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Honor X7a Plus 6/128 Gb with element number 6
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон honor x9a 8/256 emerald green
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Honor X9a 8/256 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Honor X9a 8/256 Gb with element number 7
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон huawei nova y91 8/256 black
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Huawei Nova Y91 8/256 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Huawei Nova Y91 8/256 Gb with element number 8
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон huawei nova y91 8/128 black
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Huawei Nova Y91 8/128 Gb
+2025-01-20 06:25:10,664 - INFO - processing JS object name: Huawei Nova Y91 8/128 Gb with element number 9
+2025-01-20 06:25:10,664 - INFO - cleaning product name: смартфон huawei nova y91 8/128 silver
+2025-01-20 06:25:10,664 - INFO - cleaned product name: Huawei Nova Y91 8/128 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Huawei Nova Y91 8/128 Gb with element number 10
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон xiaomi redmi note 12 pro +5g 8/256gb white
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Xiaomi Redmi Note 12 Pro+ 8/256 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Xiaomi Redmi Note 12 Pro+ 8/256 Gb with element number 11
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон vivo y17s 6/128 glitter purple 
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Vivo Y17s 6/128 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Vivo Y17s 6/128 Gb with element number 12
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон apple iphone 15 pro max 256gb blue titanium
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Apple Iphone 15 Pro Max 256 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Apple Iphone 15 Pro Max 256 Gb with element number 13
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон apple iphone 15 pro max 1tb black titanium
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Apple Iphone 15 Pro Max 1 Tb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Apple Iphone 15 Pro Max 1 Tb with element number 14
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон apple iphone 15 pro max 1tb natural titanium
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Apple Iphone 15 Pro Max 1 Tb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Apple Iphone 15 Pro Max 1 Tb with element number 15
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон apple iphone 15 pro max 1tb white titanium
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Apple Iphone 15 Pro Max 1 Tb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Apple Iphone 15 Pro Max 1 Tb with element number 16
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон xiaomi 13t pro 12/256 gb meadow green
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Xiaomi 13t Pro 12/256 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Xiaomi 13t Pro 12/256 Gb with element number 17
+2025-01-20 06:25:10,665 - INFO - cleaning product name: смартфон xiaomi 13t 8/256 gb black
+2025-01-20 06:25:10,665 - INFO - cleaned product name: Xiaomi 13t 8/256 Gb
+2025-01-20 06:25:10,665 - INFO - processing JS object name: Xiaomi 13t 8/256 Gb with element number 18
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 pro 128gb black titanium
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 Pro 128 Gb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 Pro 128 Gb with element number 19
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 pro 128gb natural titanium
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 Pro 128 Gb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 Pro 128 Gb with element number 20
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 pro 256gb natural titanium
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 Pro 256 Gb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 Pro 256 Gb with element number 21
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 pro 1tb natural titanium
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 Pro 1 Tb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 Pro 1 Tb with element number 22
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 128gb black
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 23
+2025-01-20 06:25:10,666 - INFO - cleaning product name: смартфон apple iphone 15 128gb blue
+2025-01-20 06:25:10,666 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:25:10,666 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 24
+2025-01-20 06:25:10,667 - INFO - JS
+2025-01-20 06:25:17,351 - INFO - Processing page 20 of 30
+2025-01-20 06:25:17,569 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:17,571 - INFO - cleaning product name: смартфон apple iphone 15 128gb yellow
+2025-01-20 06:25:17,571 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:25:17,571 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 1
+2025-01-20 06:25:17,571 - INFO - cleaning product name: смартфон apple iphone 15 128gb pink
+2025-01-20 06:25:17,571 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:25:17,571 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 2
+2025-01-20 06:25:17,571 - INFO - cleaning product name: смартфон apple iphone 15 128gb green
+2025-01-20 06:25:17,571 - INFO - cleaned product name: Apple Iphone 15 128 Gb
+2025-01-20 06:25:17,571 - INFO - processing JS object name: Apple Iphone 15 128 Gb with element number 3
+2025-01-20 06:25:17,571 - INFO - cleaning product name: смартфон apple iphone 15 256gb black
+2025-01-20 06:25:17,571 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:25:17,571 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 4
+2025-01-20 06:25:17,571 - INFO - cleaning product name: смартфон apple iphone 15 256gb blue
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 5
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 256gb yellow
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 6
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 256gb green
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 7
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 256gb pink
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 256 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 256 Gb with element number 8
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 plus 128gb black
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 Plus 128 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 Plus 128 Gb with element number 9
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 plus 128gb blue
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 Plus 128 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 Plus 128 Gb with element number 10
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 plus 128gb pink
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 Plus 128 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 Plus 128 Gb with element number 11
+2025-01-20 06:25:17,572 - INFO - cleaning product name: смартфон apple iphone 15 plus 128gb green
+2025-01-20 06:25:17,572 - INFO - cleaned product name: Apple Iphone 15 Plus 128 Gb
+2025-01-20 06:25:17,572 - INFO - processing JS object name: Apple Iphone 15 Plus 128 Gb with element number 12
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон apple iphone 15 plus 128gb yellow
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Apple Iphone 15 Plus 128 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Apple Iphone 15 Plus 128 Gb with element number 13
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон apple iphone 15 plus 256gb black
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Apple Iphone 15 Plus 256 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Apple Iphone 15 Plus 256 Gb with element number 14
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон apple iphone 15 plus 256gb blue
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Apple Iphone 15 Plus 256 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Apple Iphone 15 Plus 256 Gb with element number 15
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон apple iphone 15 plus 256gb pink
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Apple Iphone 15 Plus 256 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Apple Iphone 15 Plus 256 Gb with element number 16
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон apple iphone 15 plus 256gb yellow
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Apple Iphone 15 Plus 256 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Apple Iphone 15 Plus 256 Gb with element number 17
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон oppo a58 8/128 green
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Oppo A58 8/128 Gb
+2025-01-20 06:25:17,573 - INFO - processing JS object name: Oppo A58 8/128 Gb with element number 18
+2025-01-20 06:25:17,573 - INFO - cleaning product name: смартфон oppo a58 8/128 black
+2025-01-20 06:25:17,573 - INFO - cleaned product name: Oppo A58 8/128 Gb
+2025-01-20 06:25:17,574 - INFO - processing JS object name: Oppo A58 8/128 Gb with element number 19
+2025-01-20 06:25:17,574 - INFO - cleaning product name: смартфон oppo a38 4/128 black
+2025-01-20 06:25:17,574 - INFO - cleaned product name: Oppo A38 4/128 Gb
+2025-01-20 06:25:17,574 - INFO - processing JS object name: Oppo A38 4/128 Gb with element number 20
+2025-01-20 06:25:17,574 - INFO - cleaning product name: смартфон oppo a38 4/128 gold
+2025-01-20 06:25:17,574 - INFO - cleaned product name: Oppo A38 4/128 Gb
+2025-01-20 06:25:17,575 - INFO - processing JS object name: Oppo A38 4/128 Gb with element number 21
+2025-01-20 06:25:17,575 - INFO - cleaning product name: смартфон realme c53 6/128 rmx3760 mighty black
+2025-01-20 06:25:17,575 - INFO - cleaned product name: Realme C53 6/128 Gb
+2025-01-20 06:25:17,575 - INFO - processing JS object name: Realme C53 6/128 Gb with element number 22
+2025-01-20 06:25:17,575 - INFO - cleaning product name: смартфон realme c53 6/128 rmx3760 gold
+2025-01-20 06:25:17,575 - INFO - cleaned product name: Realme C53 6/128 Gb
+2025-01-20 06:25:17,575 - INFO - processing JS object name: Realme C53 6/128 Gb with element number 23
+2025-01-20 06:25:17,575 - INFO - cleaning product name: смартфон realme 11 4g 8/256 rmx3636 black
+2025-01-20 06:25:17,575 - INFO - cleaned product name: Realme 11 4g 8/256 Gb
+2025-01-20 06:25:17,575 - INFO - processing JS object name: Realme 11 4g 8/256 Gb with element number 24
+2025-01-20 06:25:17,575 - INFO - JS
+2025-01-20 06:25:18,478 - INFO - Processing page 21 of 30
+2025-01-20 06:25:18,665 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:18,667 - INFO - cleaning product name: смартфон vivo y27s 8/128 garden green
+2025-01-20 06:25:18,667 - INFO - cleaned product name: Vivo Y27s 8/128 Gb
+2025-01-20 06:25:18,667 - INFO - processing JS object name: Vivo Y27s 8/128 Gb with element number 1
+2025-01-20 06:25:18,667 - INFO - cleaning product name: смартфон vivo y27s 8/128 burgundy black
+2025-01-20 06:25:18,667 - INFO - cleaned product name: Vivo Y27s 8/128 Gb
+2025-01-20 06:25:18,667 - INFO - processing JS object name: Vivo Y27s 8/128 Gb with element number 2
+2025-01-20 06:25:18,667 - INFO - cleaning product name: смартфон honor x9b 8/256 gb emerald green
+2025-01-20 06:25:18,667 - INFO - cleaned product name: Honor X9b 8/256 Gb
+2025-01-20 06:25:18,667 - INFO - processing JS object name: Honor X9b 8/256 Gb with element number 3
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон honor x9b 8/256 gb 5g midnight black
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Honor X9b 8/256 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Honor X9b 8/256 Gb with element number 4
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон honor x9b 12/256 gb sunrise orange
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Honor X9b 12/256 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Honor X9b 12/256 Gb with element number 5
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон honor x7b 8/128 midnight black
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Honor X7b 8/128 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Honor X7b 8/128 Gb with element number 6
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон honor x7b  8/128 flowing silver
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Honor X7b 8/128 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Honor X7b 8/128 Gb with element number 7
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 8/256 midnight black
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 8/256 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 8/256 Gb with element number 8
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 8/256 forest green
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 8/256 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 8/256 Gb with element number 9
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 8/256 lavender purple
+2025-01-20 06:25:18,668 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 8/256 Gb
+2025-01-20 06:25:18,668 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 8/256 Gb with element number 10
+2025-01-20 06:25:18,668 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 12/512 midnight black
+2025-01-20 06:25:18,669 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 12/512 Gb
+2025-01-20 06:25:18,669 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 12/512 Gb with element number 11
+2025-01-20 06:25:18,669 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 12/512 gb forest green
+2025-01-20 06:25:18,669 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 12/512 Gb
+2025-01-20 06:25:18,669 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 12/512 Gb with element number 12
+2025-01-20 06:25:18,669 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro 12/512 gb lavender purple
+2025-01-20 06:25:18,669 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro 12/512 Gb
+2025-01-20 06:25:18,669 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro 12/512 Gb with element number 13
+2025-01-20 06:25:18,669 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro + 5g 12/512 gb black
+2025-01-20 06:25:18,669 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb
+2025-01-20 06:25:18,669 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb with element number 14
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro + 5g 12/512 gb white
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb with element number 15
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон samsung galaxy s24 ultra 256gb titanium black
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Samsung Galaxy S24 Ultra 256 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Samsung Galaxy S24 Ultra 256 Gb with element number 16
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон realme 11 4g 8/256 rmx3636 gold
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Realme 11 4g 8/256 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Realme 11 4g 8/256 Gb with element number 17
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон realme 11 pro+ 5g 12/512 rmx3741 beige
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Realme 11 Pro+ 12/512 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Realme 11 Pro+ 12/512 Gb with element number 18
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон realme c55 6/128 rmx3710 sunshower
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Realme C55 6/128 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Realme C55 6/128 Gb with element number 19
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон vivo y02t 4/128 blue
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Vivo Y02t 4/128 Gb
+2025-01-20 06:25:18,670 - INFO - processing JS object name: Vivo Y02t 4/128 Gb with element number 20
+2025-01-20 06:25:18,670 - INFO - cleaning product name: смартфон apple iphone 15 pro max 256gb white titanium
+2025-01-20 06:25:18,670 - INFO - cleaned product name: Apple Iphone 15 Pro Max 256 Gb
+2025-01-20 06:25:18,671 - INFO - processing JS object name: Apple Iphone 15 Pro Max 256 Gb with element number 21
+2025-01-20 06:25:18,671 - INFO - cleaning product name: смартфон xiaomi redmi note 13 8/256 ice blue
+2025-01-20 06:25:18,671 - INFO - cleaned product name: Xiaomi Redmi Note 13 8/256 Gb
+2025-01-20 06:25:18,671 - INFO - processing JS object name: Xiaomi Redmi Note 13 8/256 Gb with element number 22
+2025-01-20 06:25:18,671 - INFO - cleaning product name: смартфон vivo v30 12/256 black
+2025-01-20 06:25:18,671 - INFO - cleaned product name: Vivo V30 12/256 Gb
+2025-01-20 06:25:18,671 - INFO - processing JS object name: Vivo V30 12/256 Gb with element number 23
+2025-01-20 06:25:18,671 - INFO - cleaning product name: смартфон vivo v30 12/256 green
+2025-01-20 06:25:18,671 - INFO - cleaned product name: Vivo V30 12/256 Gb
+2025-01-20 06:25:18,671 - INFO - processing JS object name: Vivo V30 12/256 Gb with element number 24
+2025-01-20 06:25:18,671 - INFO - JS
+2025-01-20 06:25:19,399 - INFO - Processing page 22 of 30
+2025-01-20 06:25:19,550 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:19,553 - INFO - cleaning product name: смартфон vivo y100 8/256 crystal black
+2025-01-20 06:25:19,553 - INFO - cleaned product name: Vivo Y100 8/256 Gb
+2025-01-20 06:25:19,553 - INFO - processing JS object name: Vivo Y100 8/256 Gb with element number 1
+2025-01-20 06:25:19,553 - INFO - cleaning product name: смартфон vivo y100 8/256 breeze green
+2025-01-20 06:25:19,553 - INFO - cleaned product name: Vivo Y100 8/256 Gb
+2025-01-20 06:25:19,553 - INFO - processing JS object name: Vivo Y100 8/256 Gb with element number 2
+2025-01-20 06:25:19,553 - INFO - cleaning product name: смартфон xiaomi 14 ultra 16/512gb black
+2025-01-20 06:25:19,553 - INFO - cleaned product name: Xiaomi 14 Ultra 16/512 Gb
+2025-01-20 06:25:19,553 - INFO - processing JS object name: Xiaomi 14 Ultra 16/512 Gb with element number 3
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон samsung sm-a556e a55 5g 128gb black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Samsung Galaxy A55 128 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Samsung Galaxy A55 128 Gb with element number 4
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон samsung samsung galaxy a35 5g 128gb black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Samsung Samsung Galaxy A35 128 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Samsung Samsung Galaxy A35 128 Gb with element number 5
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон samsung galaxy a35 5g 256gb black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Samsung Galaxy A35 256 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Samsung Galaxy A35 256 Gb with element number 6
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон samsung sm-a256e a25 5g 128gb black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Samsung Galaxy A25 128 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Samsung Galaxy A25 128 Gb with element number 7
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон samsung sm-a155f a15 128gb black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Samsung Galaxy A15 128 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Samsung Galaxy A15 128 Gb with element number 8
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон xiaomi 14 ultra 16/512 white
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Xiaomi 14 Ultra 16/512 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Xiaomi 14 Ultra 16/512 Gb with element number 9
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон xiaomi redmi note 13 8/256 midnight black
+2025-01-20 06:25:19,554 - INFO - cleaned product name: Xiaomi Redmi Note 13 8/256 Gb
+2025-01-20 06:25:19,554 - INFO - processing JS object name: Xiaomi Redmi Note 13 8/256 Gb with element number 10
+2025-01-20 06:25:19,554 - INFO - cleaning product name: смартфон vivo v30e 8/256 green
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo V30e 8/256 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo V30e 8/256 Gb with element number 11
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон vivo v30e 8/256 brown
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo V30e 8/256 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo V30e 8/256 Gb with element number 12
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон vivo x100 16/512 black
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo X100 16/512 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo X100 16/512 Gb with element number 13
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон vivo x100 16/512 blue
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo X100 16/512 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo X100 16/512 Gb with element number 14
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон vivo y03 4/128 gem green
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo Y03 4/128 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo Y03 4/128 Gb with element number 15
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон vivo y03 4/128 space black
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Vivo Y03 4/128 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Vivo Y03 4/128 Gb with element number 16
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон xiaomi redmi note 12 pro + 5g 8/256 blue
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Xiaomi Redmi Note 12 Pro+ 8/256 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Xiaomi Redmi Note 12 Pro+ 8/256 Gb with element number 17
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон xiaomi redmi note 13 6/128 ice blue
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Xiaomi Redmi Note 13 6/128 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Xiaomi Redmi Note 13 6/128 Gb with element number 18
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон xiaomi redmi note 13 6/128 midnight black
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Xiaomi Redmi Note 13 6/128 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Xiaomi Redmi Note 13 6/128 Gb with element number 19
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон xiaomi redmi note 13 6/128 mint green
+2025-01-20 06:25:19,555 - INFO - cleaned product name: Xiaomi Redmi Note 13 6/128 Gb
+2025-01-20 06:25:19,555 - INFO - processing JS object name: Xiaomi Redmi Note 13 6/128 Gb with element number 20
+2025-01-20 06:25:19,555 - INFO - cleaning product name: смартфон xiaomi redmi note 13 8/256 mint green
+2025-01-20 06:25:19,556 - INFO - cleaned product name: Xiaomi Redmi Note 13 8/256 Gb
+2025-01-20 06:25:19,556 - INFO - processing JS object name: Xiaomi Redmi Note 13 8/256 Gb with element number 21
+2025-01-20 06:25:19,556 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro + 5g 12/512 purple
+2025-01-20 06:25:19,556 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb
+2025-01-20 06:25:19,556 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro+ 12/512 Gb with element number 22
+2025-01-20 06:25:19,556 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro + 5g 8/256 aurora purple
+2025-01-20 06:25:19,556 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro+ 8/256 Gb
+2025-01-20 06:25:19,556 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro+ 8/256 Gb with element number 23
+2025-01-20 06:25:19,556 - INFO - cleaning product name: смартфон xiaomi redmi note 13 pro + 5g 8/256 moonlight white
+2025-01-20 06:25:19,556 - INFO - cleaned product name: Xiaomi Redmi Note 13 Pro+ 8/256 Gb
+2025-01-20 06:25:19,556 - INFO - processing JS object name: Xiaomi Redmi Note 13 Pro+ 8/256 Gb with element number 24
+2025-01-20 06:25:19,556 - INFO - JS
+2025-01-20 06:25:20,934 - INFO - Processing page 23 of 30
+2025-01-20 06:25:23,995 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:23,997 - INFO - cleaning product name: смартфон samsung galaxy z fold6 6/256gb silver
+2025-01-20 06:25:23,997 - INFO - cleaned product name: Samsung Galaxy Z Fold6 256 Gb
+2025-01-20 06:25:23,997 - INFO - processing JS object name: Samsung Galaxy Z Fold6 256 Gb with element number 1
+2025-01-20 06:25:23,997 - INFO - cleaning product name: смартфон samsung galaxy z flip6 6/256gb silver
+2025-01-20 06:25:23,997 - INFO - cleaned product name: Samsung Galaxy Z Flip6 256 Gb
+2025-01-20 06:25:23,997 - INFO - processing JS object name: Samsung Galaxy Z Flip6 256 Gb with element number 2
+2025-01-20 06:25:23,998 - INFO - cleaning product name: смартфон samsung sm-a057f a05s 128gb violet
+2025-01-20 06:25:23,998 - INFO - cleaned product name: Samsung Galaxy A05s 128 Gb
+2025-01-20 06:25:23,998 - INFO - processing JS object name: Samsung Galaxy A05s 128 Gb with element number 3
+2025-01-20 06:25:23,998 - INFO - cleaning product name: смартфон apple iphone 15 pro max 512gb natural titanium
+2025-01-20 06:25:23,998 - INFO - cleaned product name: Apple Iphone 15 Pro Max 512 Gb
+2025-01-20 06:25:23,998 - INFO - processing JS object name: Apple Iphone 15 Pro Max 512 Gb with element number 4
+2025-01-20 06:25:23,998 - INFO - cleaning product name: смартфон oppo reno 12f 8/256 matte grey
+2025-01-20 06:25:23,998 - INFO - cleaned product name: Oppo Reno 12f 8/256 Gb
+2025-01-20 06:25:23,999 - INFO - processing JS object name: Oppo Reno 12f 8/256 Gb with element number 5
+2025-01-20 06:25:23,999 - INFO - cleaning product name: смартфон oppo reno 12f 8/256 amber orange
+2025-01-20 06:25:23,999 - INFO - cleaned product name: Oppo Reno 12f 8/256 Gb
+2025-01-20 06:25:23,999 - INFO - processing JS object name: Oppo Reno 12f 8/256 Gb with element number 6
+2025-01-20 06:25:23,999 - INFO - cleaning product name: смартфон samsung galaxy s24 ultra 12/512 gb titanium black
+2025-01-20 06:25:23,999 - INFO - cleaned product name: Samsung Galaxy S24 Ultra 512 Gb
+2025-01-20 06:25:23,999 - INFO - processing JS object name: Samsung Galaxy S24 Ultra 512 Gb with element number 7
+2025-01-20 06:25:24,000 - INFO - JS
+2025-01-20 06:25:24,565 - INFO - Processing page 24 of 30
+2025-01-20 06:25:24,703 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:24,705 - INFO - cleaning product name: смартфон realme 12 pro + 5g 8/256 beige
+2025-01-20 06:25:24,705 - INFO - cleaned product name: Realme 12 Pro+ 8/256 Gb
+2025-01-20 06:25:24,705 - INFO - processing JS object name: Realme 12 Pro+ 8/256 Gb with element number 1
+2025-01-20 06:25:24,705 - INFO - cleaning product name: смартфон realme 12 pro + 5g 8/256 blue
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Realme 12 Pro+ 8/256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Realme 12 Pro+ 8/256 Gb with element number 2
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон realme c65 6/128 black
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Realme C65 6/128 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Realme C65 6/128 Gb with element number 3
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb desert titanium
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 4
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb natural titanium
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 5
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 pro max 256gb black titanium
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Pro Max 256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Pro Max 256 Gb with element number 6
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 pro max 256gb desert titanium
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Pro Max 256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Pro Max 256 Gb with element number 7
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 pro max 256gb white titanium
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Pro Max 256 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Pro Max 256 Gb with element number 8
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 plus 512gb black
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Plus 512 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Plus 512 Gb with element number 9
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 plus 512gb white
+2025-01-20 06:25:24,706 - INFO - cleaned product name: Apple Iphone 16 Plus 512 Gb
+2025-01-20 06:25:24,706 - INFO - processing JS object name: Apple Iphone 16 Plus 512 Gb with element number 10
+2025-01-20 06:25:24,706 - INFO - cleaning product name: смартфон apple iphone 16 plus 512gb pink
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Plus 512 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Plus 512 Gb with element number 11
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 plus 512gb ultramarine
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Plus 512 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Plus 512 Gb with element number 12
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 plus 512gb teal
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Plus 512 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Plus 512 Gb with element number 13
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb black titanium
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 14
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb white titanium
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 15
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb black titanium
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 16
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 pro 512gb desert titanium
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Pro 512 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Pro 512 Gb with element number 17
+2025-01-20 06:25:24,707 - INFO - cleaning product name: смартфон apple iphone 16 pro 256gb natural titanium
+2025-01-20 06:25:24,707 - INFO - cleaned product name: Apple Iphone 16 Pro 256 Gb
+2025-01-20 06:25:24,707 - INFO - processing JS object name: Apple Iphone 16 Pro 256 Gb with element number 18
+2025-01-20 06:25:24,708 - INFO - cleaning product name: смартфон apple iphone 16 pro 512gb white titanium
+2025-01-20 06:25:24,708 - INFO - cleaned product name: Apple Iphone 16 Pro 512 Gb
+2025-01-20 06:25:24,708 - INFO - processing JS object name: Apple Iphone 16 Pro 512 Gb with element number 19
+2025-01-20 06:25:24,708 - INFO - cleaning product name: смартфон apple iphone 16 pro 1tb black titanium
+2025-01-20 06:25:24,708 - INFO - cleaned product name: Apple Iphone 16 Pro 1 Tb
+2025-01-20 06:25:24,708 - INFO - processing JS object name: Apple Iphone 16 Pro 1 Tb with element number 20
+2025-01-20 06:25:24,708 - INFO - cleaning product name: смартфон apple iphone 16 pro 1tb desert titanium
+2025-01-20 06:25:24,708 - INFO - cleaned product name: Apple Iphone 16 Pro 1 Tb
+2025-01-20 06:25:24,708 - INFO - processing JS object name: Apple Iphone 16 Pro 1 Tb with element number 21
+2025-01-20 06:25:24,708 - INFO - cleaning product name: смартфон apple iphone 16 pro 1tb natural titanium
+2025-01-20 06:25:24,708 - INFO - cleaned product name: Apple Iphone 16 Pro 1 Tb
+2025-01-20 06:25:24,708 - INFO - processing JS object name: Apple Iphone 16 Pro 1 Tb with element number 22
+2025-01-20 06:25:24,709 - INFO - cleaning product name: смартфон apple iphone 16 pro 1tb white titanium
+2025-01-20 06:25:24,709 - INFO - cleaned product name: Apple Iphone 16 Pro 1 Tb
+2025-01-20 06:25:24,709 - INFO - processing JS object name: Apple Iphone 16 Pro 1 Tb with element number 23
+2025-01-20 06:25:24,709 - INFO - cleaning product name: смартфон apple iphone 16 pro max 256gb natural titanium
+2025-01-20 06:25:24,709 - INFO - cleaned product name: Apple Iphone 16 Pro Max 256 Gb
+2025-01-20 06:25:24,709 - INFO - processing JS object name: Apple Iphone 16 Pro Max 256 Gb with element number 24
+2025-01-20 06:25:24,709 - INFO - JS
+2025-01-20 06:25:25,275 - INFO - Processing page 25 of 30
+2025-01-20 06:25:25,456 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:25,459 - INFO - cleaning product name: смартфон apple iphone 16 pro max 512gb black titanium
+2025-01-20 06:25:25,459 - INFO - cleaned product name: Apple Iphone 16 Pro Max 512 Gb
+2025-01-20 06:25:25,459 - INFO - processing JS object name: Apple Iphone 16 Pro Max 512 Gb with element number 1
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 512gb natural titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 512 Gb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 512 Gb with element number 2
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 512gb white titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 512 Gb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 512 Gb with element number 3
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 1tb black titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 1 Tb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 1 Tb with element number 4
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 1tb desert titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 1 Tb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 1 Tb with element number 5
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 1tb natural titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 1 Tb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 1 Tb with element number 6
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон apple iphone 16 pro max 1tb white titanium
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Apple Iphone 16 Pro Max 1 Tb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Apple Iphone 16 Pro Max 1 Tb with element number 7
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон vivo v40 12/256 gb white
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Vivo V40 12/256 Gb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Vivo V40 12/256 Gb with element number 8
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон vivo v40 12/256 gb silver
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Vivo V40 12/256 Gb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Vivo V40 12/256 Gb with element number 9
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон xiaomi 14t pro 12/1024gb titan black
+2025-01-20 06:25:25,460 - INFO - cleaned product name: Xiaomi 14t Pro 12/1024 Gb
+2025-01-20 06:25:25,460 - INFO - processing JS object name: Xiaomi 14t Pro 12/1024 Gb with element number 10
+2025-01-20 06:25:25,460 - INFO - cleaning product name: смартфон xiaomi 14t 12/256gb titan black
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Xiaomi 14t 12/256 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Xiaomi 14t 12/256 Gb with element number 11
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон xiaomi 14t 12/256 titan black
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Xiaomi 14t 12/256 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Xiaomi 14t 12/256 Gb with element number 12
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон xiaomi 14t 12/512 titan gray
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Xiaomi 14t 12/512 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Xiaomi 14t 12/512 Gb with element number 13
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон xiaomi 14t pro 12/256 titan gray
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Xiaomi 14t Pro 12/256 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Xiaomi 14t Pro 12/256 Gb with element number 14
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон honor x7c (6/128) forest green
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Honor X7c 6/128 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Honor X7c 6/128 Gb with element number 15
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон honor x7c (6/128) midnight black
+2025-01-20 06:25:25,461 - INFO - cleaned product name: Honor X7c 6/128 Gb
+2025-01-20 06:25:25,461 - INFO - processing JS object name: Honor X7c 6/128 Gb with element number 16
+2025-01-20 06:25:25,461 - INFO - cleaning product name: смартфон honor x7c (6/128) moonlight white
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Honor X7c 6/128 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Honor X7c 6/128 Gb with element number 17
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон vivo y19s (6/128) black
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Vivo Y19s 6/128 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Vivo Y19s 6/128 Gb with element number 18
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон vivo y19s (6/128) silver
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Vivo Y19s 6/128 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Vivo Y19s 6/128 Gb with element number 19
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон vivo v40 lite (8/256) green
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Vivo V40 Lite 8/256 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Vivo V40 Lite 8/256 Gb with element number 20
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон vivo v40 lite (8/256) silver
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Vivo V40 Lite 8/256 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Vivo V40 Lite 8/256 Gb with element number 21
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон oppo a3 (6/128) starlight white
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Oppo A3 6/128 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Oppo A3 6/128 Gb with element number 22
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон oppo a3 (6/256) sparkle black
+2025-01-20 06:25:25,462 - INFO - cleaned product name: Oppo A3 6/256 Gb
+2025-01-20 06:25:25,462 - INFO - processing JS object name: Oppo A3 6/256 Gb with element number 23
+2025-01-20 06:25:25,462 - INFO - cleaning product name: смартфон oppo a3 (6/256) srarry purple
+2025-01-20 06:25:25,463 - INFO - cleaned product name: Oppo A3 6/256 Gb
+2025-01-20 06:25:25,463 - INFO - processing JS object name: Oppo A3 6/256 Gb with element number 24
+2025-01-20 06:25:25,463 - INFO - JS
+2025-01-20 06:25:25,855 - INFO - Processing page 26 of 30
+2025-01-20 06:25:26,045 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:26,047 - INFO - cleaning product name: смартфон realme c61 (8/256) gold
+2025-01-20 06:25:26,047 - INFO - cleaned product name: Realme C61 8/256 Gb
+2025-01-20 06:25:26,047 - INFO - processing JS object name: Realme C61 8/256 Gb with element number 1
+2025-01-20 06:25:26,047 - INFO - cleaning product name: смартфон realme c61 (8/256) green
+2025-01-20 06:25:26,047 - INFO - cleaned product name: Realme C61 8/256 Gb
+2025-01-20 06:25:26,047 - INFO - processing JS object name: Realme C61 8/256 Gb with element number 2
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон oppo a3x (4/128) nebula red
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Oppo A3x 4/128 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Oppo A3x 4/128 Gb with element number 3
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон oppo a3x (4/128) ocean blue
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Oppo A3x 4/128 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Oppo A3x 4/128 Gb with element number 4
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон realme c61 8/256gb green
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Realme C61 8/256 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Realme C61 8/256 Gb with element number 5
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон realme 12 4g 8/256gb blue
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Realme 12 4g 8/256 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Realme 12 4g 8/256 Gb with element number 6
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон honor x6b 4/128gb emerland green
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Honor X6b 4/128 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Honor X6b 4/128 Gb with element number 7
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон realme 12+5g 8/256gb green
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Realme 12+ 8/256 Gb
+2025-01-20 06:25:26,048 - INFO - processing JS object name: Realme 12+ 8/256 Gb with element number 8
+2025-01-20 06:25:26,048 - INFO - cleaning product name: смартфон realme 12 4g 8/256gb green
+2025-01-20 06:25:26,048 - INFO - cleaned product name: Realme 12 4g 8/256 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Realme 12 4g 8/256 Gb with element number 9
+2025-01-20 06:25:26,049 - INFO - cleaning product name: смартфон realme c61 8/256gb gold
+2025-01-20 06:25:26,049 - INFO - cleaned product name: Realme C61 8/256 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Realme C61 8/256 Gb with element number 10
+2025-01-20 06:25:26,049 - INFO - cleaning product name: смартфон honor x6b 4/128gb midnight black
+2025-01-20 06:25:26,049 - INFO - cleaned product name: Honor X6b 4/128 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Honor X6b 4/128 Gb with element number 11
+2025-01-20 06:25:26,049 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium black
+2025-01-20 06:25:26,049 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 12
+2025-01-20 06:25:26,049 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium purple
+2025-01-20 06:25:26,049 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 13
+2025-01-20 06:25:26,049 - INFO - cleaning product name: смартфон honor x9c 8/256 titanium blue
+2025-01-20 06:25:26,049 - INFO - cleaned product name: Honor X9c 8/256 Gb
+2025-01-20 06:25:26,049 - INFO - processing JS object name: Honor X9c 8/256 Gb with element number 14
+2025-01-20 06:25:26,050 - INFO - JS
+2025-01-20 06:25:27,039 - INFO - Processing page 27 of 30
+2025-01-20 06:25:27,187 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:27,188 - INFO - cleaning product name: смартфон xiaomi redmi note 14 pro+ 5g 8/256gb midnight black
+2025-01-20 06:25:27,188 - INFO - cleaned product name: Xiaomi Redmi Note 14 Pro+ 8/256 Gb
+2025-01-20 06:25:27,188 - INFO - processing JS object name: Xiaomi Redmi Note 14 Pro+ 8/256 Gb with element number 1
+2025-01-20 06:25:27,188 - INFO - cleaning product name: смартфон xiaomi redmi note 14 8/256gb midnight black
+2025-01-20 06:25:27,188 - INFO - cleaned product name: Xiaomi Redmi Note 14 8/256 Gb
+2025-01-20 06:25:27,188 - INFO - processing JS object name: Xiaomi Redmi Note 14 8/256 Gb with element number 2
+2025-01-20 06:25:27,188 - INFO - cleaning product name: смартфон xiaomi redmi note 14 8/256gb lime green
+2025-01-20 06:25:27,188 - INFO - cleaned product name: Xiaomi Redmi Note 14 8/256 Gb
+2025-01-20 06:25:27,188 - INFO - processing JS object name: Xiaomi Redmi Note 14 8/256 Gb with element number 3
+2025-01-20 06:25:27,188 - INFO - JS
+2025-01-20 06:25:27,500 - INFO - Processing page 28 of 30
+2025-01-20 06:25:27,701 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:27,701 - INFO - JS
+2025-01-20 06:25:28,039 - INFO - Processing page 29 of 30
+2025-01-20 06:25:28,220 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:28,221 - INFO - JS
+2025-01-20 06:25:30,076 - INFO - Processing page 30 of 30
+2025-01-20 06:25:30,253 - INFO - Processing JSON data for category: Smartfonlar
+2025-01-20 06:25:30,253 - INFO - JS
+2025-01-20 06:25:30,514 - INFO - Starting database upload process
+2025-01-20 06:25:31,291 - INFO - Connected to the database successfully: Send Data to DataBase
+2025-01-20 06:25:31,308 - INFO - Processing 280 products for database upload
+2025-01-20 06:25:31,526 - INFO - Inserting 280 products into database
+2025-01-20 06:25:32,043 - INFO - Script completed. Elapsed time: 0.77 minutes

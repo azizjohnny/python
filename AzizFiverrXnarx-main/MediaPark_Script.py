@@ -59,6 +59,7 @@ async def main(categories):
                 logging.info(f"Starting pagination loop for {category_Name}")
                 Total_pages = 1
                 page = 1
+                pages_not_scraped = []
                 while True:
                     logging.info(f"Processing page {page} of {Total_pages}")
                     
@@ -96,41 +97,43 @@ async def main(categories):
 
                         ######  HTML structure #######
                     if not Chect_Trig:
+
                         ##### Scroll Page Load Images #####
-                       
-                        count_products = selector.xpath("//a[contains(@class,'product-cart')]")
-                        if count_products:
-                           count_products = len(count_products)
-                           scroll_No = math.ceil(int(count_products)/5)
-                        else:
-                            scroll_No =  3
-                        for i in range(scroll_No):  # Adjust the range for the number of scrolls you need
-                            await driver.execute_script("window.scrollBy(0, 600);")  # Scroll down by 500 pixels
-                            time.sleep(1)  # Wait for a second (or adjust the wait time as needed)
-                        time.sleep(2)
-                        ##### Getting Data ######
-                        products = selector.xpath("//a[contains(@class, '[&:hover_.actions]:!flex') and contains(@class, 'tablet:max-w-full')]")
-                        logging.info(f"at Page {page} HTML products {products}")
+                       pages_not_scraped.append(page)
+                       logging.info(f"Page {page} not scraped, adding to pages_not_scraped for later scrape")
+                        # count_products = selector.xpath("//a[contains(@class,'product-cart')]")
+                        # if count_products:
+                        #    count_products = len(count_products)
+                        #    scroll_No = math.ceil(int(count_products)/5)
+                        # else:
+                        #     scroll_No =  3
+                        # for i in range(scroll_No):  # Adjust the range for the number of scrolls you need
+                        #     await driver.execute_script("window.scrollBy(0, 600);")  # Scroll down by 500 pixels
+                        #     time.sleep(1)  # Wait for a second (or adjust the wait time as needed)
+                        # time.sleep(2)
+                        # ##### Getting Data ######
+                        # products = selector.xpath("//a[contains(@class, '[&:hover_.actions]:!flex') and contains(@class, 'tablet:max-w-full')]")
+                        # logging.info(f"at Page {page} HTML products {products}")
                         
-                        for product in products:
-                            try:
-                                Name = process_product_name(product.xpath(".//p/text()").get(), category_Name)
-                                Slug = product.xpath(".//@href").get()
-                                Image = product.xpath(".//img/@src").get()# Even if image is missing, continue
-                                Price = product.xpath(".//b/text()").get()
+                        # for product in products:
+                        #     try:
+                        #         Name = process_product_name(product.xpath(".//p/text()").get(), category_Name)
+                        #         Slug = product.xpath(".//@href").get()
+                        #         Image = product.xpath(".//img/@src").get()# Even if image is missing, continue
+                        #         Price = product.xpath(".//b/text()").get()
                                 
-                                if not "https://mediapark.uz" in Slug:
-                                    Slug = f"https://mediapark.uz{Slug}"
+                        #         if not "https://mediapark.uz" in Slug:
+                        #             Slug = f"https://mediapark.uz{Slug}"
                                 
-                                logging.info(f"processing HTML product name: {Name}, Slug: {Slug}, Image: {Image}, Price: {Price}")
-                                write_to_file_data([Name, Slug, Image, Price, category_Name, store_Name], FileName)
-                            except Image == None:
-                                logging.info(f"No image found for product: {Name}")
-                                continue
-                            except Exception as e:
-                                logging.error(f"Error processing product: {str(e)}")
-                                continue  # Skip this product but continue with others
-                        logging.info("HTML")
+                        #         logging.info(f"processing HTML product name: {Name}, Slug: {Slug}, Image: {Image}, Price: {Price}")
+                        #         write_to_file_data([Name, Slug, Image, Price, category_Name, store_Name], FileName)
+                        #     except Image == None:
+                        #         logging.info(f"No image found for product: {Name}")
+                        #         continue
+                        #     except Exception as e:
+                        #         logging.error(f"Error processing product: {str(e)}")
+                        #         continue  # Skip this product but continue with others
+                        # logging.info("HTML")
 
                    
                         
@@ -152,7 +155,12 @@ async def main(categories):
                     ##### Pagination ######
                     page += 1
                     if Total_pages >= page and Total_pages > 1:
-                        await driver.get(f"{first_url}?page={page}", timeout=60 ,wait_load=True)
+                        await driver.get(f"{first_url}?page={page}", timeout=60, wait_load=True)
+                    elif pages_not_scraped:
+                        logging.info(f"Pages not scraped: {pages_not_scraped}")
+                        await driver.get(f"{first_url}?page={pages_not_scraped[0]}", timeout=60, wait_load=True)
+                        await driver.sleep(3)
+                        pages_not_scraped.pop(0)
                     else:
                         break
             except Exception as e:
@@ -173,7 +181,17 @@ async def get_data(text, Category, store_Name):
         for lst in output:
             loops += 1
             try:
+
                 Name = lst['name']['ru']
+                samsung_models = [
+                    "смартфон samsung galaxy s21 fe white",
+                    "смартфон samsung galaxy s21 fe lavender"
+                ]
+                if Name in samsung_models:
+                    Name = "Samsung Galaxy S21 Fe 6/128"
+                
+                if Name == "смартфон samsung samsung galaxy a35 5g 128gb black":
+                    Name = "samsung galaxy a35 5g 128gb black"
                 Name = process_product_name(Name,Category)
                 logging.info(f"processing JS object name: {Name} with element number {loops}")
                 Slug = lst['slug']['ru']
@@ -192,23 +210,24 @@ async def get_data(text, Category, store_Name):
                 
                 # If no image found, try to fetch from product page
                 if not Image:
-                    try:
-                        logging.info(f"Attempting to fetch image from product page for {Name}")
-                        async with webdriver.Chrome() as product_driver:
-                            await product_driver.get(Slug_link, timeout=7, wait_load=True)
-                            await product_driver.sleep(2)  # Short wait for page load
+                    break
+                    # try:
+                    #     logging.info(f"Attempting to fetch image from product page for {Name}")
+                    #     async with webdriver.Chrome() as product_driver:
+                    #         await product_driver.get(Slug_link, timeout=7, wait_load=True)
+                    #         await product_driver.sleep(2)  # Short wait for page load
                             
-                            # Try to find image in product page
-                            product_image = await product_driver.find_element(
-                                By.XPATH,
-                                "//div[contains(@class, 'LazyLoad')]//img[contains(@class, 'object-contain')]",
-                                timeout=5
-                            )
-                            if product_image:
-                                Image = await product_image.get_attribute("src")
-                                logging.info(f"Successfully fetched image from product page for {Name}")
-                    except Exception as page_error:
-                        logging.warning(f"Failed to fetch image from product page for {Name}: {str(page_error)}")
+                    #         # Try to find image in product page
+                    #         product_image = await product_driver.find_element(
+                    #             By.XPATH,
+                    #             "//div[contains(@class, 'LazyLoad')]//img[contains(@class, 'object-contain')]",
+                    #             timeout=5
+                    #         )
+                    #         if product_image:
+                    #             Image = await product_image.get_attribute("src")
+                    #             logging.info(f"Successfully fetched image from product page for {Name}")
+                    # except Exception as page_error:
+                    #     logging.warning(f"Failed to fetch image from product page for {Name}: {str(page_error)}")
                 
                 Price = lst['actual_price']
                 write_to_file_data([Name,Slug_link,Image,Price,Category,store_Name],FileName)

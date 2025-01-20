@@ -5,6 +5,7 @@ import logging
 def process_product_name(product_name, category_name):
     # Convert the product name to lowercase for easier processing
     product_name_lower = product_name.lower()
+    logging.info(f"cleaning product name: {product_name_lower}")
     
     # Check for category 'Smartfonlar' and clean product names for memory and other patterns
     if category_name == 'Smartfonlar':
@@ -59,7 +60,7 @@ def process_product_name(product_name, category_name):
     
     # Updated color removal - handle colors anywhere in the product name
     colors = ["black", "silver", "gold", "gray", "grey", "blue", "green", "white", 
-                "space gray", "space grey", "midnight", "mint", "minty", "lavender"]
+                "space gray", "space grey", "midnight black", "midnight", "mint", "mint green", "graphite gray", "lavender"]
     if any(color in product_name_lower for color in colors):
         # First handle compound colors with spaces
         product_name = re.sub(
@@ -129,4 +130,5 @@ def process_product_name(product_name, category_name):
     # Capitalize the first letter of each word and ensure the rest are lowercase
     product_name = " ".join(word.capitalize() for word in product_name.split())
 
+    logging.info(f"cleaned product name: {product_name}")
     return product_name

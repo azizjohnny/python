@@ -10,27 +10,40 @@ from datetime import datetime
 3. Rmx3363 Realme Gt Master Edition 8+256 - - 5996993 Gb, 207
 """
 
-# Function to create SQLite database and table
+# Function to create CSV file with Original and New ID columns
 def create_sqlite_db():
-    conn = sqlite3.connect('changes.db')
-    cursor = conn.cursor()
-    cursor.execute('''
-        CREATE TABLE IF NOT EXISTS changes (
-            Original INTEGER PRIMARY KEY,
-            New INTEGER
-        )
-    ''')
-    conn.commit()
-    return conn, cursor
+    import csv
+    import os
+    
+    # Check if file exists
+    file_exists = os.path.exists('changes.csv')
+    
+    # Open in append mode if exists, write mode if new
+    mode = 'a' if file_exists else 'w'
+    csvfile = open('changes.csv', mode, newline='')
+    writer = csv.writer(csvfile)
+    
+    # Only write header if new file
+    if not file_exists:
+        writer.writerow(['Original', 'New'])
+        
+    return csvfile, writer
 
 # Function to check if Original ID exists and add New ID if not already present
-def check_and_add_original(cursor, original_id, new_id):
-    cursor.execute("SELECT * FROM changes WHERE Original = ?", (original_id,))
-    if cursor.fetchone() is None:  # If Original ID is not present
-        cursor.execute("INSERT INTO changes (Original, New) VALUES (?, ?)", (original_id, new_id))
-        print(f"Added Original ID: {original_id} with New ID: {new_id}")
-    else:
-        print(f"Original ID: {original_id} already exists.")
+def check_and_add_original(writer, original_id, new_id):
+    import csv
+    
+    # Read existing entries to check for Original ID
+    with open('changes.csv', 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if int(row['Original']) == original_id:
+                print(f"Original ID: {original_id} already exists.")
+                return
+    
+    # If Original ID not found, append new row
+    writer.writerow([original_id, new_id])
+    print(f"Added Original ID: {original_id} with New ID: {new_id}")
 
 # Function to update MySQL database for all entries in changes.db
 def update_mysql_product_ids(db_instance, sqlite_cursor):

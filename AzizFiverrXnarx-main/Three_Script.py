@@ -177,8 +177,62 @@ class IdeaSpider(scrapy.Spider):
             products = data['data']
             for product in products:
                 self.logger.info(f"product {product['name']}")
+                product_name = product['name']
+                # Create a list of Oppo model names to check against
+                oppo_models = [
+                    "A18 4/128 Glowing Blue",
+                    "A18 4/128 Glowing Black",
+                    "A3 6/256 Sparkle Black",
+                    "A38 4/128 Glowing Black",
+                    "A38 4/128 Glowing Gold",
+                    "A3x 5G 4/128 Ocean Blue",
+                    "A57s 4/64 Starry Black",
+                    "A58 8/128 Glowing Black",
+                    "A58 8/128 Dazzling Green"
+                ]
+                if product['name'] in oppo_models:
+                    product_name = f"Oppo {product['name']}"
+
+
+                xiaomi_models = [
+                    "C65 6/128 Black",
+                    "C65 8/256 Blue",
+                    "C65 8/256 Black",
+                ]
+                if product['name'] in xiaomi_models:
+                    product_name = f"Xiaomi Poco {product['name']}"
+
+
+                huawei_models = [
+                    "P60 8/256 Black",
+                    "P60 Pro 8/256 Rococo Pearl",
+                ]
+                if product['name'] in huawei_models:
+                    product_name = f"Huawei Pura {product['name']}"
+
+
+                huawei_pro_models = [
+                    "Pura 70 12/256 Black",
+                    "Pura 70 Pro 12/512 Black",
+                    "Pura 70 Pro 12/512 White"
+                ]
+                if product['name'] in huawei_pro_models:
+                    product_name = f"Huawei {product['name']}"
+
+                if product['name'] == "RMX3363 Realme GT Master edition (8+256) - Цвет - Серый (5996993)":
+                    product_name = "RMX3363 Realme GT Master edition (8+256)"
+
+                if product['name'] == "Galaxy A22 Mint":
+                    product_name = "Samsung Galaxy A22 4/64"
+                    
+                if product['name'] == "Samsung Galaxy A53 Black":
+                    product_name = "Samsung Galaxy A53 6/128"
+
+                if product['name'] == "Samsung Galaxy A73 Gray":
+                    product_name = "Samsung Galaxy A73 6/128"
+
                 loader = ProductLoader(item=ProductItem(), selector=product)
-                loader.add_value('Name',product['name'],
+                loader.add_value('Name', product_name,
                     MapCompose(lambda v: process_product_name(v, category_Name)))
                 loader.add_value('Link',product['url'])
                 loader.add_value('Image',product['gallery'][0]['original'])
